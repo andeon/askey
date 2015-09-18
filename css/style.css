@@ -1,0 +1,732 @@
+
+/*Home*/	
+.page-header {
+position: fixed;
+  top: 0;
+  right:0;
+   width: 100%;
+   z-index: 1;
+  color: #ffff;
+  padding: 15px 0 15px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  }
+  
+.home {
+  font-size: 1.6em;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.home:hover {
+  color: #d87c06;
+}		
+
+body {
+  font-family: Arial, sans-serif;
+  background: url(../images/wood.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #FFFFFF;
+  margin: 50px 0;
+}
+p {
+	color: #999;
+	font: 9pt/17pt arial;
+	margin: 0 0 50px;}
+	
+small {
+	display: block;
+	padding: 0 0 0;
+	margin: 0 auto;
+	text-align: center;
+	color: #ccc;
+	font: italic  bold 8pt/12pt arial;
+	}
+	
+cite {
+	display: block;
+	padding: 0 0 30px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ccc;
+	font: italic bold 8pt arial;}
+	
+cite a {
+	color: #e5e5e5;
+	text-decoration: underline;}
+
+
+/* Thumbnail programs */
+.container {
+ margin: 80px auto;
+ position: relative; 
+ width: 1050px;
+ overflow: hidden;
+}
+
+
+.thumbnail {
+  position: relative; 
+    color: #ffffff;
+    font: 12px/1.2 Verdana, Helvetica, sans-serif;
+    float: left;    
+    width: 300px;
+    margin: 10px 20px 5px 10px; 
+	
+	background: rgba(0, 0, 0, 0.2);
+	 -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+	padding: 10px;
+}
+ 
+.thumbnail h3 {
+	text-align: center;
+    text-transform: uppercase;
+	
+}
+ 
+.thumbnail img {
+    max-width: 600px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.thumbnail-on:hover {
+  color: #d87c06;
+}	
+
+
+
+/*keyboard */
+
+#keyboard {
+	margin: 80px auto;
+	width: 964px;
+	height: 315px;
+	background:	#d5d9dc  url('../images/keyboard-background.jpg') repeat-x;
+	-moz-border-radius-topleft: 7px 21px;
+	-moz-border-radius-topright: 7px 21px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 7px 21px;
+	border-top-right-radius: 7px 21px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 50px 0 0 10px;
+	-webkit-box-shadow:  
+		inset 0 0 8px #bbb,
+		0 1px 0 #aaa,
+		0 4px 0 #bbb,
+		0 10px 30px #111;
+	-moz-box-shadow:  
+		inset 0 0 8px #bbb,
+		0 1px 0 #aaa,
+		0 4px 0 #bbb,
+		0 10px 30px #111;
+	box-shadow:  
+		inset 0 0 8px #bbb,
+		0 1px 0 #aaa,
+		0 4px 0 #bbb,
+		0 10px 30px #111;}
+
+ul {list-style-type: none; width: 964px; margin: 0 auto;}
+li {float: left;}
+
+
+.key{
+	display: block;
+	color: #aaa;
+	font: bold 9pt arial;
+	text-decoration: none;
+	text-align: center;
+	width: 52px;
+	height: 41px;
+	margin: 5px;
+	background: #222;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border-top: 1px solid #222;
+	-webkit-box-shadow: 
+		inset 0 0 25px #333,
+		0 1px 0 #000,
+		0 2px 0 #222,
+		0 2px 3px #333;
+	-moz-box-shadow: 
+		inset 0 0 25px #333,
+		0 1px 0 #000,
+		0 2px 0 #222,
+		0 2px 3px #333;
+	box-shadow: 
+		inset 0 0 25px #333,
+		0 1px 0 #000,
+		0 2px 0 #222,
+		0 2px 3px #333;
+	text-shadow: 0px -1px 0px #000;}
+	
+	
+.nokey{
+	display: block;
+	color: #6c6c6c;
+	font: bold 9pt arial;
+	text-decoration: none;
+	text-align: center;
+	width: 52px;
+	height: 41px;
+	margin: 5px;
+	background: #0A0A0A;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border-top: 1px solid #222;
+	-webkit-box-shadow: 
+		inset 0 0 25px #333,
+		0 1px 0 #000,
+		0 2px 0 #222,
+		0 2px 3px #333;
+	-moz-box-shadow: 
+		inset 0 0 25px #333,
+		0 1px 0 #000,
+		0 2px 0 #222,
+		0 2px 3px #333;
+	box-shadow: 
+		inset 0 0 25px #333,
+		0 1px 0 #000,
+		0 2px 0 #222,
+		0 2px 3px #333;
+	text-shadow: 0px -1px 0px #000;}	
+
+.key:active, .keydown {
+	color: #888;
+	background: #222;
+	margin: 7px 5px 3px;
+	-webkit-box-shadow:
+		inset 0 0 25px #333,
+		0 0 3px #333;
+	-moz-box-shadow: 
+		inset 0 0 25px #333,
+		0 0 3px #333;
+	box-shadow: 
+		inset 0 0 25px #333,
+		0 0 3px #333;
+	border-top: 1px solid #000;}
+	
+.fn span {
+	display: block;
+	margin: 4px 0 0 5px;
+	text-align: left;
+	font: bold 6pt arial;
+	text-transform: uppercase;}
+	
+
+
+#numbers li a span {
+	display: block;}
+	
+#numbers li a b {
+	margin: 3px 0 3px;
+	display: block;}
+
+#numbers li .alt b {display: block;margin: 0 0 3px;}
+
+#numbers li #backspace span {
+	text-align: right;
+	margin: 23px 10px 0 0;
+	font-size: 7.5pt;
+	text-transform: lowercase;}
+
+#numbers li #home span {
+	text-align: center;
+	margin: 6px 0 0 0;
+	font-size: 7.5pt;
+/*	text-transform: lowercase */
+} 
+	
+#qwerty li a span {
+	display: block;
+	margin: 13px 0 0;
+	text-transform: uppercase;}
+	
+#qwerty li #tab span {
+	text-align: left;
+	margin: 23px 0 0 10px;
+	font-size: 7.5pt;
+	text-transform: lowercase;}	
+
+#qwerty li .alt b {display: block; margin: 3px 0 0;}
+#qwerty li .alt span {margin: 2px 0 0;}
+
+#qwerty li .pgup span {
+	text-align: center;
+	margin: 6px 0 0 0;
+	font-size: 7.5pt;
+	text-transform: capitalize;}
+
+
+#asdfg li a span {
+	display: block;
+	margin: 13px 0 0;
+	text-transform: uppercase;}
+
+#asdfg li .alt span {margin: 0; text-transform: lowercase;}
+#asdfg li .alt b {display: block; margin: 3px 0 0;}
+#asdfg li #caps b {
+	display: block;
+	background: #999;
+	width: 4px;
+	height: 4px;
+	border-radius: 10px;
+	margin: 9px 0 0 10px;
+	-webkit-box-shadow: inset 0 1px 0 #666;
+	-moz-box-shadow:inset 0 1px 0 #666;
+	box-shadow:inset 0 1px 0 #666;}
+#asdfg li #caps span {
+	text-align: left;
+	margin: 10px 0 0 10px;
+	font-size: 7.5pt;}
+#asdfg li #enter span {
+	text-align: right;
+	margin: 23px 10px 0 0;
+	font-size: 7.5pt;}
+	
+#asdfg li .enter span {
+	text-align: center;
+	margin: 6px 0 0 0;
+	font-size: 7.5pt;
+	text-transform: lowercase;}
+	
+#asdfg li .pgdn span {
+	text-align: center;
+	margin: 6px 0 0 0;
+	font-size: 7.5pt;
+	text-transform: capitalize;}	
+
+#zxcvb li a span {
+	display: block;
+	margin: 13px 0 0;
+	text-transform: uppercase;}
+#zxcvb li .shiftleft span {
+	text-align: left;
+	margin: 23px 0 0 10px;
+	font-size: 7.5pt;
+	text-transform: lowercase;}
+#zxcvb li .shiftright span {
+	text-align: right;
+	margin: 23px 10px 0 0;
+	font-size: 7.5pt;
+	text-transform: lowercase;}
+	
+#zxcvb li .up span {
+	text-align: center;
+	margin: 6px 0 0 0;
+	font-size: 7.5pt;
+	text-transform: capitalize;}
+	
+#zxcvb li .end span {
+	text-align: center;
+	margin: 6px 0 0 0;
+	font-size: 7.5pt;
+	text-transform: capitalize;}
+	
+#zxcvb li .alt b {display: block;margin: 4px 0 0;}
+#zxcvb li .alt span {margin: 0;}
+
+	
+#bottomrow li #fn span, #bottomrow li #control span, #bottomrow li #optionleft span, #bottomrow li #altkeyleft span {
+	display: block;
+	text-align: left;
+	margin: 20px 0 0 8px;
+	font-size: 7.5pt;
+	text-transform: lowercase;}
+
+#bottomrow li #ctrlright span, #bottomrow li #altkeyright span {
+	display: block;
+	text-align: right;
+	margin: 20px 8px 0 0;
+	font-size: 7.5pt;
+	text-transform: lowercase;}
+
+#bottomrow ol li #left span, #bottomrow ol li #right span, #bottomrow ol li #down span {
+	display: block;
+	margin: 9px 0 0;}
+
+#bottomrow li .pgdn span {
+	display: block;
+	margin: 13px 0 0;}	
+	
+#bottomrow li .super span {
+	display: block;
+	margin: 10px 0 0;}		
+	
+#bottomrow li .up span {
+	display: block;
+	margin: 13px 0 0;}	
+	
+.fn {height: 26px; width: 46px;}
+#backspace {width: 74px;}
+#tab {width: 74px;}
+#caps {width: 100px;}
+#enter {width: 89px;} 
+.shiftleft, .shiftright {width: 94px;}
+#fn, #control, .ctrl, .super, .altkey, #spacebar {height: 40px;}
+
+#control {width: 56px;}
+.super {width: 46px;}
+.ctrl {width: 46px;}
+.altkey {width: 67px;}
+#spacebar {width: 362px;}
+
+#left img,  #down img, #right img {
+margin: 20px 0 0 0;
+border: none;}
+ul ol {list-style-type: none;}
+#down {height: 40px;}
+#up, #left, #right {height:40px;}
+#left, #right {margin:5px 5px 5px;}
+#left:active, #right:active {margin:5px 5px 3px;}
+#up {margin: 5px 5px 1px; }
+#up:active {margin:5px 5px -2px;}
+#down {margin: 5px 5px 5px; }
+#down:Active {margin: 5px 5px 4px;}
+
+#main {
+	width: 700px;
+	padding: 20px 50px;
+	margin: 0 auto 50px;
+	background: #fff;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px #aaa;}
+
+#main a {color: #007fff;}
+
+ul, ol {padding: 0px; margin: 0;}
+
+
+/* Backlit keyboard */
+.key:hover{box-shadow:0px 0px 10px #30C4F4; z-index:1000;}
+/* Backlit keyboard */
+	
+
+
+/* tooltip popup */
+
+.box {
+ margin: 30px 0;
+  padding: 0px;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #d87c06;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #d87c06;
+}
+
+.overlay {
+ position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 80%;
+  }
+  .popup{
+    width: 80%;
+  }
+}	
+
+
+
+
+
+/**
+ * Tooltip key 
+ */
+
+/* Base styles for the element that has a tooltip */
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Base styles for the entire tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: 
+      opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -moz-transition:    
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    transition:         
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform:    translate3d(0, 0, 0);
+  transform:         translate3d(0, 0, 0);
+  pointer-events: none;
+}
+
+/* Show the entire tooltip on hover and focus */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* Base styles for the tooltip's directional arrow */
+.tooltip:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+}
+
+/* Base styles for the tooltip's content area */
+.tooltip:after,
+[data-tooltip]:after {
+  z-index: 1000;
+  padding: 8px;
+  width: 160px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Directions */
+
+/* Top (default) */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after,
+.tooltip-top:before,
+.tooltip-top:after {
+  bottom: 100%;
+  left: 50%;
+}
+
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before {
+  margin-left: -6px;
+  margin-bottom: -12px;
+  border-top-color: #000;
+  border-top-color: hsla(0, 0%, 20%, 0.9);
+}
+
+/* Horizontally align top/bottom tooltips */
+[data-tooltip]:after,
+.tooltip:after,
+.tooltip-top:after {
+  margin-left: -80px;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after,
+.tooltip-top:hover:before,
+.tooltip-top:hover:after,
+.tooltip-top:focus:before,
+.tooltip-top:focus:after {
+  -webkit-transform: translateY(-12px);
+  -moz-transform:    translateY(-12px);
+  transform:         translateY(-12px); 
+}
+
+/* Left */
+.tooltip-left:before,
+.tooltip-left:after {
+  right: 100%;
+  bottom: 50%;
+  left: auto;
+}
+
+.tooltip-left:before {
+  margin-left: 0;
+  margin-right: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-left-color: #000;
+  border-left-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-left:hover:before,
+.tooltip-left:hover:after,
+.tooltip-left:focus:before,
+.tooltip-left:focus:after {
+  -webkit-transform: translateX(-12px);
+  -moz-transform:    translateX(-12px);
+  transform:         translateX(-12px); 
+}
+
+/* Bottom */
+.tooltip-bottom:before,
+.tooltip-bottom:after {
+  top: 100%;
+  bottom: auto;
+  left: 50%;
+}
+
+.tooltip-bottom:before {
+  margin-top: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-bottom-color: #000;
+  border-bottom-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-bottom:hover:before,
+.tooltip-bottom:hover:after,
+.tooltip-bottom:focus:before,
+.tooltip-bottom:focus:after {
+  -webkit-transform: translateY(12px);
+  -moz-transform:    translateY(12px);
+  transform:         translateY(12px); 
+}
+
+/* Right */
+.tooltip-right:before,
+.tooltip-right:after {
+  bottom: 50%;
+  left: 100%;
+}
+
+.tooltip-right:before {
+  margin-bottom: 0;
+  margin-left: -12px;
+  border-top-color: transparent;
+  border-right-color: #000;
+  border-right-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-right:hover:before,
+.tooltip-right:hover:after,
+.tooltip-right:focus:before,
+.tooltip-right:focus:after {
+  -webkit-transform: translateX(12px);
+  -moz-transform:    translateX(12px);
+  transform:         translateX(12px); 
+}
+
+/* Move directional arrows down a bit for left/right tooltips */
+.tooltip-left:before,
+.tooltip-right:before {
+  top: 3px;
+}
+
+/* Vertically center tooltip content for left/right tooltips */
+.tooltip-left:after,
+.tooltip-right:after {
+  margin-left: 0;
+  margin-bottom: -16px;
+}
+
+	
+/* Micro Clearfix by Nicolas Gallagher - http://nicolasgallagher.com/micro-clearfix-hack */
+        /* For modern browsers */
+        .cf:before, .cf:after {content:""; display:table;}
+        .cf:after {clear:both;}
+
+        /* For IE 6/7 (trigger hasLayout) */
+        .cf {zoom:1;}
+		
+		
+/* tables popup tooltip */
+.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #ebab3a;border-collapse: collapse;}
+.tftable th {font-size:12px;background-color:#e6983b;border-width: 1px;padding: 8px;border-style: solid;border-color: #ebab3a;text-align:left;}
+.tftable tr {background-color:#f0c169;}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #ebab3a;}
+
+	
