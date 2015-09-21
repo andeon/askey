@@ -1,5 +1,5 @@
 ---
-layout: main_krita
+layout: main_gimp
 t:
  pt:
 #Tooltip_Key_fn_etc
