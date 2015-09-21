@@ -1,0 +1,18 @@
+ <section class="page-header">
+     <a class="home" href="http://andeon.github.io/askey">ASKey</a><small>{{site.t.l_title[page.lang] }}</small>
+
+	{% assign pages=site.pages | where:"name", page.name | sort: 'path' %}
+	{% for page in pages %}
+ 	<a class="menu-language" href="{{ site.baseurl }}{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+  	{% endfor %}   
+   
+        {% if page.lang == "pt" %}
+       <a class="menu-language" href="{{site.baseurl }}/pt/about">Sobre</a>
+	{% elsif page.lang == "es" %}
+       <a class="menu-language" href="{{site.baseurl }}/es/about">Sobres</a>
+  	{% else site.lang == "en" %}
+       <a class="menu-language" href="{{site.baseurl }}/about" >About</a>
+  	{% endif %}
+   
+ </section>
+
