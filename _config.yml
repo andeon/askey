@@ -1,0 +1,27 @@
+# Site settings
+title: ASKey - Keyboard Shortcuts
+email: your-email@domain.com
+description: "Keyboard Shortcuts Open Source"
+baseurl: "/askey"
+url: "http://andeon.github.io/askey/"
+
+
+#translate global
+#Table Header Cells
+t:
+ l_thc: 
+  en: "<tr><th>Shortcut</th><th>Actions</th><th>Category</th></tr>"
+  pt: "<tr><th>Atalho</th><th>Ação</th><th>Categoria</th></tr>"
+#popup title
+ l_popupt: 
+  en: "Key explanation"
+  pt: "Funções da tecla"
+#popup title
+ l_title: 
+  en: "Keyboard Shortcuts"
+  pt: "Atalhos de teclado"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
