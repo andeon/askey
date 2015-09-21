@@ -4,8 +4,8 @@
 <!-- Keyboard !-->
 <div id="keyboard">
     	<ul class="cf">
-	       	<li><a href="#ppkeyesc" class="key c27 fn" data-tooltip="{{ page.t.l_ttkeyesc[page.lang] }}"><span>esc</span></a></li>
-        	<li><a href="#ppkeyf1" class="key c112 fn" data-tooltip="{{ page.t.l_ttkeyf1[page.lang] }}"><span>F1</span></a></li>
+	       	<li><a href="#ppkeyesc" class="key c27 fn" data-tooltip="{{ page.t[page.lang].l_tkeyesc }}"><span>esc</span></a></li>
+        	<li><a href="#ppkeyf1" class="key c112 fn" data-tooltip="{{ page.t[page.lang].l_tkeyf1 }}"><span>F1</span></a></li>
         	<li><a href="#" class="nokey c113 fn"><span>F2</span></a></li>
         	<li><a href="#" class="nokey c114 fn"><span>F3</span></a></li>
         	<li><a href="#" class="nokey c115 fn"><span>F4</span></a></li>
@@ -14,18 +14,18 @@
         	<li><a href="#" class="nokey c118 fn"><span>F7</span></a></li>
         	<li><a href="#" class="nokey c119 fn"><span>F8</span></a></li>
         	<li><a href="#" class="nokey c120 fn"><span>F9</span></a></li>
-        	<li><a href="#ppkeyf10" class="key c121 fn" data-tooltip="{{ page.t.l_ttkeyf10[page.lang] }}"><span>F10</span></a></li>
-        	<li><a href="#ppkeyf11" class="key c122 fn" data-tooltip="{{ page.t.l_ttkeyf11[page.lang] }}"><span>F11</span></a></li>
+        	<li><a href="#ppkeyf10" class="key c121 fn" data-tooltip="{{ page.t[page.lang].l_tkeyf10 }}"><span>F10</span></a></li>
+        	<li><a href="#ppkeyf11" class="key c122 fn" data-tooltip="{{ page.t[page.lang].l_tkeyf11 }}"><span>F11</span></a></li>
         	<li><a href="#" class="nokey c123 fn"><span>F12</span></a></li>
         	<li><a href="#" class="nokey fn"><span>Scroll</span></a></li>
-			<li><a href="#" class="nokey c19 fn"><span>Pause</span></a></li>
-			<li><a href="#" class="nokey c18 fn"><span>Insert</span></a></li>
-			<li><a href="#ppkeydel" class="key c46 fn" data-tooltip="{{ page.t.l_ttkeydel[page.lang] }}"><span>Delete</span></a></li>
+		<li><a href="#" class="nokey c19 fn"><span>Pause</span></a></li>
+		<li><a href="#" class="nokey c18 fn"><span>Insert</span></a></li>
+		<li><a href="#ppkeydel" class="key c46 fn" data-tooltip="{{ page.t[page.lang].l_tkeydel }}"><span>Delete</span></a></li>
         </ul>
 		
     	<ul class="cf" id="numbers">
 	    	<li><a href="#" class="nokey c192"><b>~</b><span>`</span></a></li>
-	    	<li><a href="#ppkey1" class="key c49" data-tooltip="{{ page.t.l_ttkey01[page.lang] }}"><b>!</b><span>1</span></a></li>
+	    	<li><a href="#ppkey1" class="key c49" data-tooltip="{{ page.t[page.lang].l_tkey01}}"><b>!</b><span>1</span></a></li>
 	    	<li><a href="#" class="nokey c50"><b>@</b><span>2</span></a></li>
 	    	<li><a href="#" class="nokey c51"><b>#</b><span>3</span></a></li>
 	    	<li><a href="#" class="nokey c52"><b>$</b><span>4</span></a></li>
@@ -35,56 +35,56 @@
 	    	<li><a href="#" class="nokey c56"><b>*</b><span>8</span></a></li>
 	    	<li><a href="#" class="nokey c57"><b>(</b><span>9</span></a></li>
 	    	<li><a href="#" class="nokey c48"><b>)</b><span>0</span></a></li>
-	    	<li><a href="#ppkeyminus" class="key c189 alt" data-tooltip="{{ page.t.l_ttkeyminus[page.lang] }}"><b>_</b><span>-</span></a></li>
+	    	<li><a href="#ppkeyminus" class="key c189 alt" data-tooltip="{{ page.t[page.lang].l_tkeyminus }}"><b>_</b><span>-</span></a></li>
 	    	<li><a href="#ppkeyplus" class="key c187" data-tooltip="{{ page.t.l_ttkeyplus[page.lang] }}"><b>+</b><span>=</span></a></li>
 	    	<li><a href="#" class="nokey c46" id="backspace"><span>BackSpace</span></a></li>
-	    	<li><a href="#ppkeyhome" class="key c36" id="home" data-tooltip="{{ page.t.l_ttkeyhome[page.lang] }}"><span>Home</span></a></li>	
+	    	<li><a href="#ppkeyhome" class="key c36" id="home" data-tooltip="{{ page.t[page.lang].l_tkeyhome }}"><span>Home</span></a></li>	
         </ul>
 		
     	<ul class="cf" id="qwerty">
-	    	<li><a href="#ppkeytab" class="key c9" id="tab" data-tooltip="{{ page.t.l_ttkeytab[page.lang] }}"><span>tab</span></a></li>
+	    	<li><a href="#ppkeytab" class="key c9" id="tab" data-tooltip="{{ page.t[page.lang].l_tkeytab }}"><span>tab</span></a></li>
 	    	<li><a href="#ppkeyq" class="key c81" data-tooltip="{{ page.t.l_ttkeyq[page.lang] }}"><span>q</span></a></li>
 	    	<li><a href="#ppkeyw" class="key c87"><span>w</span></a></li>
-	    	<li><a href="#ppkeye" class="key c69" data-tooltip="{{ page.t.l_ttkeye[page.lang] }}"><span>e</span></a></li>
-	    	<li><a href="#ppkeyr" class="key c82" data-tooltip="{{ page.t.l_ttkeyr[page.lang] }}"><span>r</span></a></li>
-	    	<li><a href="#ppkeyt" class="key c84" data-tooltip="{{ page.t.l_ttkeyt[page.lang] }}"><span>t</span></a></li>
+	    	<li><a href="#ppkeye" class="key c69" data-tooltip="{{ page.t[page.lang].l_tkeye}}"><span>e</span></a></li>
+	    	<li><a href="#ppkeyr" class="key c82" data-tooltip="{{ page.t[page.lang].l_tkeyr }}"><span>r</span></a></li>
+	    	<li><a href="#ppkeyt" class="key c84" data-tooltip="{{ page.t[page.lang].l_tkeyt }}"><span>t</span></a></li>
 	    	<li><a href="#ppkeyy" class="key c89"><span>y</span></a></li>
-	    	<li><a href="#ppkeyu" class="key c85" data-tooltip="{{ page.t.l_ttkeyu[page.lang] }}"><span>u</span></a></li>
-	    	<li><a href="#ppkeyi" class="key c73" data-tooltip="{{ page.t.l_ttkeyi[page.lang] }}"><span>i</span></a></li>
-	    	<li><a href="#ppkeyo" class="key c79" data-tooltip="{{ page.t.l_ttkeyo[page.lang] }}"><span>o</span></a></li>
-	    	<li><a href="#ppkeyp" class="key c80" data-tooltip="{{ page.t.l_ttkeyp[page.lang] }}"><span>p</span></a></li>
+	    	<li><a href="#ppkeyu" class="key c85" data-tooltip="{{ page.t[page.lang].l_tkeyu }}"><span>u</span></a></li>
+	    	<li><a href="#ppkeyi" class="key c73" data-tooltip="{{ page.t[page.lang].l_tkeyi }}"><span>i</span></a></li>
+	    	<li><a href="#ppkeyo" class="key c79" data-tooltip="{{ page.t[page.lang].l_tkeyo }}"><span>o</span></a></li>
+	    	<li><a href="#ppkeyp" class="key c80" data-tooltip="{{ page.t[page.lang].l_tkeyp }}"><span>p</span></a></li>
 	    	<li><a href="#" class="nokey c219 alt"><b>{</b><span>[</span></a></li>
 	    	<li><a href="#" class="nokey c221 alt"><b>}</b><span>]</span></a></li>
 	    	<li><a href="#" class="nokey c220 alt"><b>|</b><span>\</span></a></li>
-		<li><a href="#ppkeypgup" class="key c33 pgup" data-tooltip="{{ page.t.l_ttkeypgup[page.lang] }}"><span>PgUp</span></a></li>		
+		<li><a href="#ppkeypgup" class="key c33 pgup" data-tooltip="{{ page.t[page.lang].l_tkeypgup }}"><span>PgUp</span></a></li>		
         </ul>
 		
         <ul class="cf" id="asdfg">
 	    	<li><a href="#" class="nokey c20 alt" id="caps"><b></b><span>caps lock</span></a></li>
-	    	<li><a href="#ppkeya" class="key c65" data-tooltip="{{ page.t.l_ttkeya[page.lang] }}"><span>a</span></a></li>
-	    	<li><a href="#ppkeys" class="key c83" data-tooltip="{{ page.t.l_ttkeys[page.lang] }}"><span>s</span></a></li>
-	    	<li><a href="#ppkeyd" class="key c68" data-tooltip="{{ page.t.l_ttkeyd[page.lang] }}"><span>d</span></a></li>
-	    	<li><a href="#ppkeyf" class="key c70" data-tooltip="{{ page.t.l_ttkeyf[page.lang] }}"><span>f</span></a></li>
+	    	<li><a href="#ppkeya" class="key c65" data-tooltip="{{ page.t[page.lang].l_tkeya }}"><span>a</span></a></li>
+	    	<li><a href="#ppkeys" class="key c83" data-tooltip="{{ page.t[page.lang].l_tkeys }}"><span>s</span></a></li>
+	    	<li><a href="#ppkeyd" class="key c68" data-tooltip="{{ page.t[page.lang].l_tkeyd }}"><span>d</span></a></li>
+	    	<li><a href="#ppkeyf" class="key c70" data-tooltip="{{ page.t[page.lang].l_tkeyf }}"><span>f</span></a></li>
 	    	<li><a href="#ppkeyg" class="key c71"><span>g</span></a></li>
-	    	<li><a href="#ppkeyh" class="key c72" data-tooltip="{{ page.t.l_ttkeyh[page.lang] }}"><span>h</span></a></li>
+	    	<li><a href="#ppkeyh" class="key c72" data-tooltip="{{ page.t[page.lang].l_tkeyh }}"><span>h</span></a></li>
 	    	<li><a href="#ppkeyj" class="key c74"><span>j</span></a></li>
-	    	<li><a href="#ppkeyk" class="key c75" data-tooltip="{{ page.t.l_ttkeyk[page.lang] }}"><span>k</span></a></li>
-	    	<li><a href="#ppkeyl" class="key c76" data-tooltip="{{ page.t.l_ttkeyl[page.lang] }}"><span>l</span></a></li>
+	    	<li><a href="#ppkeyk" class="key c75" data-tooltip="{{ page.t[page.lang].l_tkeyk }}"><span>k</span></a></li>
+	    	<li><a href="#ppkeyl" class="key c76" data-tooltip="{{ page.t[page.lang].l_tkeyl }}"><span>l</span></a></li>
 	    	<li><a href="#ppkeysemicolon" class="key c186 alt"><b>:</b><span>;</span></a></li>
 	    	<li><a href="#" class="nokey c222 alt"><b>"</b><span>'</span></a></li>
 	    	<li><a href="#" class="nokey c13 alt enter" id="enter"><span>enter</span></a></li>
-		<li><a href="#ppkeypgdn" class="key c34 pgdn" data-tooltip="{{ page.t.l_ttkeypgdn[page.lang] }}"><span>PgDn</span></a></li>			
+		<li><a href="#ppkeypgdn" class="key c34 pgdn" data-tooltip="{{ page.t[page.lang].l_tkeypgdn}}"><span>PgDn</span></a></li>		
         </ul>
 		
         <ul class="cf" id="zxcvb">
 	    	<li><a href="#" class="nokey c16 shiftleft"><span>Shift</span></a></li>
-	    	<li><a href="#ppkeyz" class="key c90" data-tooltip="{{ page.t.l_ttkeyz[page.lang] }}"><span>z</span></a></li>
-	    	<li><a href="#ppkeyx" class="key c88" data-tooltip="{{ page.t.l_ttkeyx[page.lang] }}"><span>x</span></a></li>
-	    	<li><a href="#ppkeyc" class="key c67" data-tooltip="{{ page.t.l_ttkeyc[page.lang] }}"><span>c</span></a></li>
+	    	<li><a href="#ppkeyz" class="key c90" data-tooltip="{{ page.t[page.lang].l_tkeyz }}"><span>z</span></a></li>
+	    	<li><a href="#ppkeyx" class="key c88" data-tooltip="{{ page.t[page.lang].l_tkeyx }}"><span>x</span></a></li>
+	    	<li><a href="#ppkeyc" class="key c67" data-tooltip="{{ page.t[page.lang].l_tkeyc }}"><span>c</span></a></li>
 	    	<li><a href="#ppkeyv" class="key c86"><span>v</span></a></li>
-	    	<li><a href="#ppkeyb" class="key c66" data-tooltip="{{ page.t.l_ttkeyb[page.lang] }}"><span>b</span></a></li>
-	    	<li><a href="#ppkeyn" class="key c78" data-tooltip="{{ page.t.l_ttkeyn[page.lang] }}"><span>n</span></a></li>
-	    	<li><a href="#ppkeym" class="key c77" data-tooltip="{{ page.t.l_ttkeym[page.lang] }}"><span>m</span></a></li>
+	    	<li><a href="#ppkeyb" class="key c66" data-tooltip="{{ page.t[page.lang].l_tkeyb }}"><span>b</span></a></li>
+	    	<li><a href="#ppkeyn" class="key c78" data-tooltip="{{ page.t[page.lang].l_tkeyn }}"><span>n</span></a></li>
+	    	<li><a href="#ppkeym" class="key c77" data-tooltip="{{ page.t[page.lang].l_tkeym }}"><span>m</span></a></li>
 	    	<li><a href="#ppkeycomma" class="key c188 alt"><b>&lt;</b><span>,</span></a></li>
 	    	<li><a href="#ppkeydot" class="key c190 alt"><b>&gt;</b><span>.</span></a></li>
 	    	<li><a href="#" class="nokey c191 alt"><b>?</b><span>/</span></a></li>
@@ -117,7 +117,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyesc[page.lang] }}
+						{{ page.t[page.lang].l_keyesc }}	
 					</table>		
 				</div>
 		</div>
@@ -129,7 +129,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyf1[page.lang] }}	
+						{{ page.t[page.lang].l_keyf1 }}
 					</table>		
 				</div>
 		</div>
@@ -141,7 +141,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyf10[page.lang] }}
+						{{ page.t[page.lang].l_keyf10 }}
 					</table>	
 				</div>
 		</div>
@@ -153,7 +153,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyf11[page.lang] }}
+						{{ page.t[page.lang].l_keyf11}}
 					</table>		
 				</div>
 		</div>
@@ -165,7 +165,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keydel[page.lang] }}			
+						{{ page.t[page.lang].l_keydel }}			
 					</table>						
 				</div>
 		</div>
@@ -178,7 +178,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_key01[page.lang] }}					
+						{{ page.t[page.lang].l_key01 }}				
 					</table>	
 				</div>
 		</div>
@@ -191,7 +191,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyminus[page.lang] }}					
+						{{ page.t[page.lang].l_keyminus }}				
 					</table>	
 				</div>
 		</div>
@@ -203,7 +203,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyplus[page.lang] }}					
+						{{ page.t[page.lang].l_keyplus }}					
 					</table>	
 				</div>
 		</div>
@@ -216,7 +216,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keytab[page.lang] }}
+						{{ page.t[page.lang].l_keytab }}
 					</table>	
 				</div>
 		</div>
@@ -229,7 +229,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyhome[page.lang] }}					
+						{{ page.t[page.lang].l_keyhome }}					
 					</table>	
 				</div>
 		</div>
@@ -241,7 +241,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keypgup[page.lang] }}					
+						{{ page.t[page.lang].l_keypgup }}					
 					</table>	
 				</div>
 		</div>
@@ -253,7 +253,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keypgdn[page.lang] }}		
+						{{ page.t[page.lang].l_keypgdn }}		
 					</table>	
 				</div>
 		</div>
@@ -265,7 +265,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyend[page.lang] }}					
+						{{ page.t[page.lang].l_keyend }}					
 					</table>	
 				</div>
 		</div>
@@ -278,7 +278,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keycomma[page.lang] }}					
+						{{ page.t[page.lang].l_keycomma }}					
 					</table>	
 				</div>
 		</div>
@@ -291,7 +291,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keydot[page.lang] }}					
+						{{ page.t[page.lang].l_keydot }}					
 					</table>	
 				</div>
 		</div>
@@ -304,7 +304,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keysemicolon[page.lang] }}
+						{{ page.t[page.lang].l_keysemicolon }}
 					</table>	
 				</div>
 		</div>
@@ -319,7 +319,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyq[page.lang] }}		
+						{{ page.t[page.lang].l_keyq }}	
 					</table>	
 				</div>
 		</div>
@@ -331,7 +331,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyw[page.lang] }}		
+						{{ page.t[page.lang].l_keyw }}	
 					</table>	
 				</div>
 		</div>
@@ -343,10 +343,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>E</td><td>Ellipse Select</td><td>Toolbox</td></tr>
-						<tr><td>Shift+E</td><td>Eraser</td><td>Toolbox</td></tr>
-						<tr><td>Ctrl+E</td><td>Export</td><td>File</td></tr>
-						<tr><td>Shift+Ctrl+E </td><td>Export as</td><td>File</td></tr>
+						{{ page.t[page.lang].l_keye }}
 					</table>	
 				</div>
 		</div>
@@ -358,8 +355,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>R</td><td>Rectangle Select</td><td>Toolbox</td></tr>
-						<tr><td>Shift+Ctrl+R</td><td>Toggle rulers</td><td>View</td></tr>						
+						{{ page.t[page.lang].l_keyr }}
 					</table>	
 				</div>
 		</div>
@@ -371,9 +367,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>T</td><td>Text</td><td>Toolbox</td></tr>
-						<tr><td>Shift+T</td><td>Scale</td><td>Toolbox</td></tr>
-						<tr><td>Shift+Ctrl+T</td><td>Toggle guides</td><td>View</td></tr>		
+						{{ page.t[page.lang].l_keyt }}		
 					</table>	
 				</div>
 		</div>
@@ -385,7 +379,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>Ctrl+Y</td><td>Rendo</td><td>Edit</td></tr>	
+						{{ page.t[page.lang].l_keyy }}	
 					</table>	
 				</div>
 		</div>
@@ -397,7 +391,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 					{{ site.t.l_thc[page.lang] }}
-					{{ page.t.l_keyq[page.lang] }}		
+					{{ page.t[page.lang].l_keyu }}	
 					</table>	
 				</div>
 		</div>
@@ -409,8 +403,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>I</td><td>Scissors</td><td>Toolbox</td></tr>
-						<tr><td>Ctrl+I</td><td>Invert selection</td><td>Select</td></tr>						
+						{{ page.t[page.lang].l_keyi }}
 					</table>	
 				</div>
 		</div>
@@ -422,10 +415,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>O</td><td>Color Picker</td><td>Toolbox</td></tr>
-						<tr><td>Shift+O</td><td>Select by Color</td><td>Toolbox</td></tr>
-						<tr><td>Ctrl+O</td><td>Open</td><td>File</td></tr>
-						<tr><td>Ctrl+Alt+O</td><td>Open as Layer</td><td>File</td></tr>		
+						{{ page.t[page.lang].l_keyo }}	
 					</table>	
 				</div>
 		</div>
@@ -437,8 +427,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>P</td><td>Paintbrush</td><td>Toolbox</td></tr>
-						<tr><td>Shift+P</td><td>Perspective</td><td>Toolbox</td></tr>					
+						{{ page.t[page.lang].l_keyp }}					
 					</table>	
 				</div>
 		</div>
@@ -451,9 +440,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>A</td><td>{{ page.t.l_keya[page.lang] }}</td><td>Toolbox</td></tr>
-						<tr><td>Ctrl+A</td><td>All</td><td>Select</td></tr>	
-						<tr><td>Shift+Ctrl+A</td><td>None</td><td>Select</td></tr>
+						{{ page.t[page.lang].l_keya }}
 					</table>	
 				</div>
 		</div>
@@ -465,10 +452,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>S</td><td>Smudge</td><td>Toolbox</td></tr>		
-						<tr><td>Shift+S</td><td>Shear</td><td>Toolbox</td></tr>		
-						<tr><td>Ctrl+S</td><td>Save</td><td>File</td></tr>		
-						<tr><td>Shift+Ctrl+S</td><td>Save as</td><td>File</td></tr>				
+						{{ page.t[page.lang].l_keys }}				
 					</table>	
 				</div>
 		</div>
@@ -480,9 +464,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>D</td><td>Default Colors</td><td>Toolbox</td></tr>		
-						<tr><td>Shift+D</td><td>Dodge / Burn</td><td>Toolbox</td></tr>		
-						<tr><td>Ctrl+D</td><td>Duplicate image</td><td>Image</td></tr>				
+						{{ page.t[page.lang].l_keyd }}				
 					</table>	
 				</div>
 		</div>
@@ -494,9 +476,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>F</td><td>Free Select</td><td>Toolbox</td></tr>		
-						<tr><td>Ctrl+F</td><td>Repeat last plug-in</td><td>Plug-ins</td></tr>		
-						<tr><td>Shift+Ctrl+F</td><td>Re-show last plug-in</td><td>Plug-ins</td></tr>				
+						{{ page.t[page.lang].l_keyf }}			
 					</table>	
 				</div>
 		</div>
@@ -508,7 +488,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>Ctrl+G</td><td>Gradients</td><td>Dialogs</td></tr>				
+						{{ page.t[page.lang].l_keyg }}			
 					</table>	
 				</div>
 		</div>
@@ -520,7 +500,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t.l_keyh[page.lang] }}						
+						{{ page.t[page.lang].l_keyh }}					
 					</table>	
 				</div>
 		</div>
@@ -532,8 +512,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>Ctrl+J</td><td>Shrink wrap</td><td>View</td></tr>
-						<tr><td>Shift+­Ctrl+J</td><td>Fit image in window</td><td>View</td></tr>
+						{{ page.t[page.lang].l_keyj }}
 					</table>	
 				</div>
 		</div>
@@ -545,7 +524,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>K</td><td>Ink</td><td>Toolbox</td></tr>				
+						{{ page.t[page.lang].l_keyk }}			
 					</table>	
 				</div>
 		</div>
@@ -557,9 +536,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>L</td><td>Blend</td><td>Toolbox</td></tr>		
-						<tr><td>Shift+Ctrl+L</td><td>Float selection</td><td>Selection</td></tr>		
-						<tr><td>Ctrl+L</td><td>Layers</td><td>Dialogs</td></tr>				
+						{{ page.t[page.lang].l_keyl }}			
 					</table>	
 				</div>
 		</div>
@@ -572,8 +549,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>Z</td><td>Zoom</td><td>Toolbox</td></tr>
-						<tr><td>Ctrl+Z</td><td>Undo</td><td>Edit</td></tr>				
+						{{ page.t[page.lang].l_keyz }}				
 					</table>	
 				</div>
 		</div>
@@ -585,8 +561,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>X</td><td>Swap Colors</td><td>Toolbox</td></tr>
-						<tr><td>Ctrl+X</td><td>Cut selection</td><td>Edit</td></tr>				
+						{{ page.t[page.lang].l_keyx }}				
 					</table>	
 				</div>
 		</div>
@@ -598,9 +573,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>C</td><td>clone</td><td>Toolbox</td></tr>
-						<tr><td>Ctrl+C</td><td>Copy selection</td><td>Edit</td></tr>
-						<tr><td>Shift+Ctrl+C</td><td>Copy visible</td><td>Edit</td></tr>
+						{{ page.t[page.lang].l_keyc }}
 					</table>	
 				</div>
 		</div>
@@ -612,9 +585,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>Shift+V</td><td>From Path</td><td>Select</td></tr>
-						<tr><td>Shift+Ctrl+V</td><td>Paste as new imagee</td><td>Edit</td></tr>
-						<tr><td>Ctrl+V</td><td>Paste</td><td>Edit</td></tr>	
+						{{ page.t[page.lang].l_keyv }}	
 					</table>	
 				</div>
 		</div>
@@ -626,8 +597,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>B</td><td>Paths</td><td>Toolbox</td></tr>
-						<tr><td>Shift+B</td><td>Bucket Fill</td><td>Toolbox</td></tr>
+						{{ page.t[page.lang].l_keyb }}
 					</table>	
 				</div>
 		</div>
@@ -639,8 +609,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>N</td><td>Pencil</td><td>Toolbox</td></tr>
-						<tr><td>Ctrl+N</td><td>New image</td><td>File</td></tr>
+						{{ page.t[page.lang].l_keyn }}
 					</table>	
 				</div>
 		</div>
@@ -652,9 +621,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						<tr><td>M</td><td>Move</td><td>Toolbox</td></tr>
-						<tr><td>Shift+M</td><td>Measure</td><td>Toolbox</td></tr>
-						<tr><td>Ctrl+M</td><td>Merge visible layers</td><td>Image</td></tr>
+						{{ page.t[page.lang].l_keym }}
 					</table>	
 				</div>
 		</div>

@@ -44,7 +44,7 @@ t:
 #Esc
   l_keyesc: "<tr><td>Esc</td><td>Close Dialogs</td><td>Dialogs</td></tr>"
 #F1
-  l_keyf1: "<tr><td>F1</td><td>Help</td><td>Help</td></tr>
+  l_keyf01: "<tr><td>F1</td><td>Help</td><td>Help</td></tr>
    <tr><td>Shift+F1</td><td>Context Help</td><td>Help</td></tr>"
 #F10
   l_keyf10: "<tr><td>F10</td><td>Main Menu</td><td>File</td></tr>
