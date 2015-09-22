@@ -3,7 +3,7 @@ layout: main_gimp
 t:
  en:
 #Tooltip_Key_fn_etc
-  l_tkeyesc: "Close Windows"
+  l_tkeyesc: "Close Dialogs"
   l_tkeyf1: "Help"
   l_tkeyf10: "Main Menu"
   l_tkeyf11: "Fullscreen"
