@@ -169,7 +169,6 @@ t:
   l_keym: "<tr><td>M</td><td>Move</td><td>Toolbox</td></tr>
    <tr><td>Shift+M</td><td>Measure</td><td>Toolbox</td></tr>
    <tr><td>Ctrl+M</td><td>Merge visible layers</td><td>Image</td></tr>"
-
 #about
   l_buttonabout: "About"
   l_titleabout: "GIMP Keyboard Shortcuts"

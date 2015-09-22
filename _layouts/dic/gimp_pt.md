@@ -169,7 +169,6 @@ t:
   l_keym: "<tr><td>M</td><td>Movimento</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Shift+M</td><td>Medidas</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Ctrl+M</td><td>Combinar camadas visíveis</td><td>Imagem</td></tr>"
-
 #about
   l_buttonabout: "Sobre"
   l_titleabout: "Atalhos de Teclado do GIMP"
