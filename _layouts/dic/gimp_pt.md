@@ -44,7 +44,7 @@ t:
 #Esc
   l_keyesc: "<tr><td>Esc</td><td>Fechar diálogos</td><td>Diálogos</td></tr>"
 #F1
-  l_keyf01: "<tr><td>F1</td><td>Ajuda</td><td>Ajuda</td></tr>
+  l_keyf1: "<tr><td>F1</td><td>Ajuda</td><td>Ajuda</td></tr>
    <tr><td>Shift+F1</td><td>Ajuda por contexto</td><td>Ajuda</td></tr>"
 #F10
   l_keyf10: "<tr><td>F10</td><td>Menu principal</td><td>Arquivo</td></tr>
