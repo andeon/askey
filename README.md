@@ -1,5 +1,5 @@
 # Askey - Keyboard Shortcuts
-=================================
+
 ![Askey](https://github.com/andeon/askey/blob/master/screenshot.jpg)
 
 Askey is a virtual keyboard to help learn shortcuts of open source programs.
