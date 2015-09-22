@@ -2,6 +2,6 @@
 
 Notes:
     
-    - Created and published in GitHub Pages
-    - internationalization of the website
+ - Created and published in GitHub Pages
+ - internationalization of the website
 
