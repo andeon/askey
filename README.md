@@ -1,10 +1,22 @@
-# askey
-ASKey - Keyboard Shortcuts
+# Askey - Keyboard Shortcuts
+=================================
+![Askey](https://github.com/andeon/askey/blob/master/screenshot.jpg)
 
-Keyboard based on the Apple Wireless Keyboard created by Dustin Cartwright
+Askey is a virtual keyboard to help learn shortcuts of open source programs.
+
+Author & License
+-----------------
+Created by Anderson Prado (AndeOn)
+
+Licensed under the GNU GENERAL PUBLIC LICENSE, Version 2
+
+Notes
+-----
+
+Keyboard was based on the Apple Wireless Keyboard created by Dustin Cartwright
 
 Tooltip http://cbracco.me/a-simple-css-tooltip/ 
 
 Popup http://www.sevensignature.com/blog/code/pure-css-popup-without-javascript/
 
-This site: http://benoitpatra.com/2014/08/24/organize-a-multilanguage-jekyll-site/ helped me to understand the concept of multi-language in Jekyll.
+This site: http://benoitpatra.com/2014/08/24/organize-a-multilanguage-jekyll-site/ helped me to understand the concept of multi-language in Jekyll
