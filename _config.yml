@@ -1,7 +1,7 @@
 # Site settings
 title: ASKey - Keyboard Shortcuts
 email: your-email@domain.com
-description: "Shortcut keys of Open Source Graphics Programs"
+description: "Shortcut keys of Open Source graphic programs"
 baseurl: "/askey"
 url: "http://andeon.github.io/askey/"
 
