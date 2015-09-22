@@ -2,7 +2,7 @@
 
 ![Askey](https://github.com/andeon/askey/blob/master/screenshot.jpg)
 
-Askey is a virtual keyboard hosted on github-pages, created to list the shortcut keys of Open Source Graphics Programs.
+Askey is a virtual keyboard hosted on github-pages, created to list the shortcut keys of Open Source graphic programs.
 
 [Visit Askey!](http://andeon.github.io/askey/)
 
