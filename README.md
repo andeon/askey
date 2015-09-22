@@ -4,6 +4,8 @@
 
 Askey is a virtual keyboard hosted on github-pages, created to list the shortcut keys of Open Source Graphics Programs.
 
+[Visit Askey!](http://andeon.github.io/askey/)
+
 Author & License
 -----------------
 Created by Anderson Prado (AndeOn)
