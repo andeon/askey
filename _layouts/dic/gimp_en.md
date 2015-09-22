@@ -157,7 +157,7 @@ t:
    <tr><td>Shift+Ctrl+C</td><td>Copy visible</td><td>Edit</td></tr>"
 #V
   l_keyv: "<tr><td>Shift+V</td><td>From Path</td><td>Select</td></tr>
-   <tr><td>Shift+Ctrl+V</td><td>Paste as new imagee</td><td>Edit</td></tr>
+   <tr><td>Shift+Ctrl+V</td><td>Paste as new image</td><td>Edit</td></tr>
    <tr><td>Ctrl+V</td><td>Paste</td><td>Edit</td></tr>"
 #B
   l_keyb: "<tr><td>B</td><td>Paths</td><td>Toolbox</td></tr>
