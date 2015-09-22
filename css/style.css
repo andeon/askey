@@ -753,3 +753,15 @@ ul, ol {padding: 0px; margin: 0;}
 .tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #ebab3a;}
 
 	
+.footer{
+position: fixed;
+  bottom: 0;
+  right:0;
+  width: 100%;
+  color: #ffff;
+  background-color:#212121;
+  font-size:12px;
+  padding: 10px 0 20px;
+  text-align: center;
+  color:#c0c0c0;
+}
