@@ -86,15 +86,10 @@ cite a {
 	color: #e5e5e5;
 	text-decoration: underline;}
 	
-/* Page Content styles */
-.page-content {
- padding: 30px 0;
-}	
-	
-	
+
 /* Thumbnail programs */
 
- .content {
+ .thumbcontent {
    width:100%;
    float:left; 
    padding: 60px 0 140px;
