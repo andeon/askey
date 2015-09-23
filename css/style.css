@@ -40,6 +40,23 @@ font-family: Arial, sans-serif;
   color: #d87c06;
 }
  
+ 
+.menu-language {
+  font-size: 1.2em;
+  padding: 1px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu-language:hover {
+  background: red;
+  padding: 1px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+ 
 h1 {
   text-align: center;
   font-family: Tahoma, Arial, sans-serif;
@@ -68,6 +85,12 @@ cite {
 cite a {
 	color: #e5e5e5;
 	text-decoration: underline;}
+	
+/* Page Content styles */
+.page-content {
+ padding: 30px 0;
+}	
+	
 	
 /* Thumbnail programs */
 
@@ -489,7 +512,7 @@ ul, ol {padding: 0px; margin: 0;}
   color: #333;
 }
 .popup .close:hover {
-  color: #06D85F;
+  color: #d87c06;
 }
 .popup .content {
   max-height: 30%;
