@@ -1,18 +1,35 @@
+/* start*/	
+body {
+font-family: Arial, sans-serif;
+   margin:0px;
+   padding:0px; 
+     background: url(../images/wood.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+ }
+ header,footer {
+   width:100%;
+   height:50px;
+   background-color:#212121;
+   position:fixed;
+   color:#fff;
+   text-align:center;
 
-/*Home*/	
-.page-header {
-position: fixed;
-  top: 0;
-  right:0;
-   width: 100%;
-   z-index: 1;
-  color: #ffff;
+ }
+ .head1 {
   padding: 15px 0 15px;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  }
-  
-.home {
+  top:0px;
+  background: rgba(0, 0, 0, 0.6);
+   
+ }
+ .foot1 {
+ padding: 15px 0 15px;
+ bottom:0px; 
+ }
+ 
+/* home*/	
+ .home {
   font-size: 1.6em;
   padding: 10px;
   color: #fff;
@@ -22,44 +39,15 @@ position: fixed;
 .home:hover {
   color: #d87c06;
 }
-
-.menu-language {
-  font-size: 1.2em;
-  padding: 1px;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.menu-language:hover {
-  background: red;
-  padding: 1px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-}
-		
-
-body {
-  font-family: Arial, sans-serif;
-  background: url(../images/wood.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  height: 100%;
-}
-
+ 
 h1 {
   text-align: center;
   font-family: Tahoma, Arial, sans-serif;
   color: #FFFFFF;
   margin: 50px 0;
 }
-p {
-	color: #999;
-	font: 9pt/17pt arial;
-	margin: 0 0 50px;}
-	
+
+
 small {
 	display: block;
 	padding: 0 0 0;
@@ -68,10 +56,10 @@ small {
 	color: #ccc;
 	font: italic  bold 8pt/12pt arial;
 	}
-	
+
 cite {
 	display: block;
-	padding: 0 0 0;
+	padding: 0 0 0 0;
 	margin: 0 auto;
 	text-align: center;
 	color: #ccc;
@@ -80,39 +68,36 @@ cite {
 cite a {
 	color: #e5e5e5;
 	text-decoration: underline;}
-
-
-/* Page Content styles */
-.page-content {
-  padding: 30px 0;
-}
-
-
+	
 /* Thumbnail programs */
-.container {
- margin: 100px auto;
- position: relative; 
- width: 1050px;
- overflow: hidden;
-}
 
-
-.thumbnail {
-  position: relative; 
+ .content {
+   width:100%;
+   float:left; 
+   padding: 60px 0 140px;
+ }
+ 
+ .container {
+   width:100%;
+    width: 1050px;	
+    margin: 80px auto;
+   
+ }	
+	 
+ .thumbnail {
     color: #ffffff;
     font: 12px/1.2 Verdana, Helvetica, sans-serif;
     float: left;    
     width: 300px;
     margin: 10px 20px 5px 10px; 
-	
 	background: rgba(0, 0, 0, 0.2);
-	 -webkit-border-radius: 15px;
+	-webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
 	padding: 10px;
 }
  
-.thumbnail h2 {
+.thumbnail h3 {
 	text-align: center;
     text-transform: uppercase;
 	
@@ -128,7 +113,6 @@ cite a {
 .thumbnail-on:hover {
   color: #d87c06;
 }	
-
 
 
 /*keyboard */
@@ -433,7 +417,7 @@ ul ol {list-style-type: none;}
 
 ul, ol {padding: 0px; margin: 0;}
 
-
+	
 /* Backlit keyboard */
 .key:hover{box-shadow:0px 0px 10px #30C4F4; z-index:1000;}
 /* Backlit keyboard */
@@ -505,7 +489,7 @@ ul, ol {padding: 0px; margin: 0;}
   color: #333;
 }
 .popup .close:hover {
-  color: #d87c06;
+  color: #06D85F;
 }
 .popup .content {
   max-height: 30%;
@@ -519,10 +503,7 @@ ul, ol {padding: 0px; margin: 0;}
   .popup{
     width: 80%;
   }
-}	
-
-
-
+}		
 
 
 /**
@@ -750,18 +731,4 @@ ul, ol {padding: 0px; margin: 0;}
 .tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #ebab3a;border-collapse: collapse;}
 .tftable th {font-size:12px;background-color:#e6983b;border-width: 1px;padding: 8px;border-style: solid;border-color: #ebab3a;text-align:left;}
 .tftable tr {background-color:#f0c169;}
-.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #ebab3a;}
-
-	
-.footer{
-position: fixed;
-  bottom: 0;
-  right:0;
-  width: 100%;
-  color: #ffff;
-  background-color:#212121;
-  font-size:12px;
-  padding: 10px 0 20px;
-  text-align: center;
-  color:#c0c0c0;
-}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #ebab3a;}	
