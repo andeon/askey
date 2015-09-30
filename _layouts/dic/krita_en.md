@@ -164,6 +164,7 @@ t:
   l_buttonabout: "About Krita"
   l_titleabout: "Krita Keyboard Shortcuts"
   l_descabout: "Cover the most useful hotkeys for the Krita under Linux. All keys can be assigned individually: Settings / Configure shortcuts."
+  l_linkabout: "Visit Krita's official website!"
 ---
 
 
