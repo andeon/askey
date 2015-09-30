@@ -11,7 +11,7 @@ t:
   l_tkeyf10: ""
   l_tkeyf11: ""
   l_tkeytab: "Show Canvas Only"
-  l_tkey01: ""
+  l_tkey1: "Zoom 1:1"
   l_tkeyminus: ""
   l_tkeyins: "Insert layer"
   l_tkeydel: "Clear"
