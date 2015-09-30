@@ -3,7 +3,7 @@ layout: main_krita
 t:
  en:
 #Tooltip_Key_fn_etc
-  l_tkeyesc: ""
+  l_tkeyesc: "Close Widows"
   l_tkeyf1: "Krita Handbook"
   l_tkeyf4: "Rotate Left"
   l_tkeyf5: "Rotate Reset"
