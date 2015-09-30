@@ -170,7 +170,7 @@ t:
    <tr><td>Shift+M</td><td>Measure</td><td>Toolbox</td></tr>
    <tr><td>Ctrl+M</td><td>Merge visible layers</td><td>Image</td></tr>"
 #about
-  l_buttonabout: "About"
+  l_buttonabout: "About GIMP"
   l_titleabout: "GIMP Keyboard Shortcuts"
   l_descabout: "Cover the most useful hotkeys for the GIMP under Linux. All keys can be assigned individually: Edit / Preferences / interface / keyboard shortcuts."
 ---

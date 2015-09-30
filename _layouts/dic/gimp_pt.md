@@ -170,7 +170,7 @@ t:
    <tr><td>Shift+M</td><td>Medidas</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Ctrl+M</td><td>Combinar camadas visíveis</td><td>Imagem</td></tr>"
 #about
-  l_buttonabout: "Sobre"
+  l_buttonabout: "Sobre GIMP"
   l_titleabout: "Atalhos de Teclado do GIMP"
   l_descabout: "Cobre as teclas de atalho mais úteis para o GIMP no Linux. Todas as teclas podem ser atribuídas individualmente em: Editar / Preferências / interface / atalhos de teclado."
 ---
