@@ -123,9 +123,10 @@ t:
    <tr><td>Ctrl+S</td><td>Save</td><td>File</td></tr>
    <tr><td>Shift+Ctrl+S</td><td>Save as</td><td>File</td></tr>"
 #D
-  l_keyd: "<tr><td>F</td><td>Free Select</td><td>Toolbox</td></tr>
-   <tr><td>Ctrl+F</td><td>Repeat last plug-in</td><td>Plug-ins</td></tr>	
-   <tr><td>Shift+Ctrl+F</td><td>Re-show last plug-in</td><td>Plug-ins</td></tr>"
+  l_keyd: "<tr><td>D</td><td>Free Select</td><td>Toolbox</td></tr>
+   <tr><td>Shift+D</td><td>Dodge / Burn</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+D</td><td>Duplicate</td><td>Image</td></tr>"
+
 #F
   l_keyf: "<tr><td>F</td><td>Free Select</td><td>Toolbox</td></tr>
    <tr><td>Ctrl+F</td><td>Repeat last plug-in</td><td>Plug-ins</td></tr>	
