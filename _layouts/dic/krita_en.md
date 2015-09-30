@@ -87,7 +87,7 @@ t:
 #.
   l_keydot: "<tr><td>Ctrl+.</td><td>Next Favorite Preset</td><td>Brushes</td></tr>"
 #/
-  l_tkeyslash: "<tr><td>/</td><td>Switch to Previous Preset</td><td>Brushes</td></tr>"
+  l_keyslash: "<tr><td>/</td><td>Switch to Previous Preset</td><td>Brushes</td></tr>"
 #Tablet_Popup_QWERTY
 #Q
   l_keyq: "<tr><td>Q</td><td>Multibrush Tool</td><td>Toolbox</td></tr>"
@@ -122,7 +122,7 @@ t:
   l_keys: "<tr><td>Ctrl+S</td><td>Save</td><td>File</td></tr>
    <tr><td>Shift+Ctrl+S</td><td>Save as</td><td>File</td></tr>"
 #D
-  l_keyd: "<tr><td>D</td><td>Reset fg/bg Color</td><td>Toolbox</td></tr>
+  l_keyd: "<tr><td>D</td><td>Reset Foreground and Background Color</td><td>Toolbox</td></tr>
    <tr><td>Shift+Ctrl+D</td><td>Reselect</td><td>Select</td></tr>"
 #F
   l_keyf: "<tr><td>Shift+Ctrl+F</td><td>Fullscreen Mode</td><td>View</td></tr>"
