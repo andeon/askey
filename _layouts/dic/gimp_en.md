@@ -50,9 +50,9 @@ t:
   l_keyf10: "<tr><td>F10</td><td>Main Menu</td><td>File</td></tr>
    <tr><td>Shift+F10</td><td>Drop-down Menu</td><td>Dialogs</td></tr>"
 #F11
-  l_keyf11: "<tr><td>Delete</td><td>Clear</td><td>Edit</td></tr>"
+  l_keyf11: "<tr><td>F11</td><td>Fullscreen</td><td>View</td></tr>"
 #Delete
-  l_keydel: "<tr><td>Delete</td><td>Limpar</td><td>Editar</td></tr>"
+  l_keydel: "<tr><td>Delete</td><td>Clear</td><td>Editar</td></tr>"
 #1
   l_key01: "<tr><td>1</td><td>Zoom 1:1</td><td>View</td></tr>"
 #-
