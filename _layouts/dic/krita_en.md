@@ -79,9 +79,9 @@ t:
   l_keyback: "<tr><td>Backspace</td><td>Fill with Background Color</td><td>Edit</td></tr>
    <tr><td>Shift+Backspace</td><td>Fill with Forefround Color</td><td>Edit</td></tr>"
 #Open bracket
-  l_keyobracket: "<tr><td>=</td><td>Decrease Brush Size</td><td>Brushes</td></tr>"
+  l_keyobracket: "<tr><td>[</td><td>Decrease Brush Size</td><td>Brushes</td></tr>"
 #Close bracket
-  l_keycbracket: "<tr><td>=</td><td>Increase Brush Size</td><td>Brushes</td></tr>"
+  l_keycbracket: "<tr><td>]</td><td>Increase Brush Size</td><td>Brushes</td></tr>"
 #Tab
   l_keytab: "<tr><td>Tab</td><td>Show Canvas Only</td><td>View</td></tr>"
 #PgUp
