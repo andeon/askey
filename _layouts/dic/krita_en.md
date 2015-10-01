@@ -7,6 +7,8 @@ t:
   l_tkeyf1: "Krita Handbook"
 #  l_tkeyf10: ""
 #  l_tkeyf11: ""
+  l_tkeyins: "Insert layer"
+  l_tkeydel: "Clear"
   l_tkeytab: "Show Canvas Only"
   l_tkey1: "Zoom 1:1"
   l_tkey4: "Rotate Left"
@@ -14,11 +16,9 @@ t:
   l_tkey6: "Rotate Right"
   l_tkeyminus: "Zoom out"
   l_tkeyplus: "Zoom in"
-  l_tkeyins: "Insert layer"
-  l_tkeydel: "Clear"
+  l_tkeyback: "Fill with Background Color"
   l_tkeyobracket: "Decrease Brush Size"
   l_tkeycbracket: "Increase Brush Size"
-  l_tkeyback: "Fill with Background Color"
 #  l_tkeyhome: ""
   l_tkeypgup: "Activate next layer"
   l_tkeypgdn: "Activate previous layer"
@@ -59,6 +59,8 @@ t:
   l_keyesc: "<tr><td>Esc</td><td>Close Windows</td><td>Windows</td></tr>"
 #F1
   l_keyf1: "<tr><td>F1</td><td>Krita Handbook</td><td>Help</td></tr>"
+#Insert
+  l_keyins: "<tr><td>Insert</td><td>Insert layer</td><td>Layer</td></tr>"
 #Delete
   l_keydel: "<tr><td>Delete</td><td>Clear</td><td>Editar</td></tr>"
 #1
@@ -76,6 +78,10 @@ t:
 #Backspace
   l_keyback: "<tr><td>Backspace</td><td>Fill with Background Color</td><td>Edit</td></tr>
    <tr><td>Shift+Backspace</td><td>Fill with Forefround Color</td><td>Edit</td></tr>"
+#Open bracket
+  l_keyobracket: "<tr><td>=</td><td>Decrease Brush Size</td><td>Brushes</td></tr>"
+#Close bracket
+  l_keycbracket: "<tr><td>=</td><td>Increase Brush Size</td><td>Brushes</td></tr>"
 #Tab
   l_keytab: "<tr><td>Tab</td><td>Show Canvas Only</td><td>View</td></tr>"
 #PgUp
