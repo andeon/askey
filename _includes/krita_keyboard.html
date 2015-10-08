@@ -20,7 +20,7 @@
         	<li><a href="#" class="nokey fn"><span>Scroll</span></a></li>
 		<li><a href="#" class="nokey c19 fn"><span>Pause</span></a></li>
 		<li><a href="#ppkeyins" class="key c18 fn" data-tooltip="{{ page.t[page.lang].l_tkeyins }}"><span>Insert</span></a></li>
-		<li><a href="#ppkeydel" class="key c46 fn" data-tooltip="{{ page.t[page.lang].l_tkeydel }}"><span>Delete</span></a></li>
+		<li><a href="#ppkeydelete" class="key c46 fn" data-tooltip="{{ page.t[page.lang].l_tkeydelete }}"><span>Delete</span></a></li>
         </ul>
 		
     	<ul class="cf" id="numbers">
@@ -117,7 +117,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyesc }}	
+						{{ page.t[page.lang].key_esc }}	
 					</table>		
 				</div>
 		</div>
@@ -129,7 +129,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyf1 }}
+						{{ page.t[page.lang].key_f1 }}
 					</table>		
 				</div>
 		</div>
@@ -141,7 +141,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyf10 }}
+						{{ page.t[page.lang].key_f10 }}
 					</table>	
 				</div>
 		</div>
@@ -153,7 +153,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyf11}}
+						{{ page.t[page.lang].key_f11}}
 					</table>		
 				</div>
 		</div>
@@ -166,20 +166,20 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyins }}			
+						{{ page.t[page.lang].key_ins }}			
 					</table>						
 				</div>
 		</div>
 </div>
 
-<div id="ppkeydel" class="overlay">
+<div id="ppkeydelete" class="overlay">
 		<div class="popup">
 			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
 			<a class="close" href="#" onclick="history.back(); return false;">×</a>
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keydel }}			
+						{{ page.t[page.lang].key_delete }}			
 					</table>						
 				</div>
 		</div>
@@ -192,7 +192,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_key1 }}				
+						{{ page.t[page.lang].key_1 }}				
 					</table>	
 				</div>
 		</div>
@@ -205,7 +205,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_key4 }}				
+						{{ page.t[page.lang].key_4 }}				
 					</table>	
 				</div>
 		</div>
@@ -218,7 +218,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_key5 }}				
+						{{ page.t[page.lang].key_5 }}				
 					</table>	
 				</div>
 		</div>
@@ -231,7 +231,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_key6 }}				
+						{{ page.t[page.lang].key_6 }}				
 					</table>	
 				</div>
 		</div>
@@ -244,7 +244,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyminus }}				
+						{{ page.t[page.lang].key_minus }}				
 					</table>	
 				</div>
 		</div>
@@ -256,7 +256,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyplus }}					
+						{{ page.t[page.lang].key_plus }}					
 					</table>	
 				</div>
 		</div>
@@ -269,7 +269,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keytab }}
+						{{ page.t[page.lang].key_tab }}
 					</table>	
 				</div>
 		</div>
@@ -282,7 +282,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyhome }}					
+						{{ page.t[page.lang].key_home }}					
 					</table>	
 				</div>
 		</div>
@@ -294,7 +294,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keypgup }}					
+						{{ page.t[page.lang].key_pgup }}					
 					</table>	
 				</div>
 		</div>
@@ -306,7 +306,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keypgdn }}		
+						{{ page.t[page.lang].key_pgdn }}		
 					</table>	
 				</div>
 		</div>
@@ -318,7 +318,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyend }}					
+						{{ page.t[page.lang].key_end }}					
 					</table>	
 				</div>
 		</div>
@@ -331,7 +331,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyobracket }}					
+						{{ page.t[page.lang].key_obracket }}					
 					</table>	
 				</div>
 		</div>
@@ -344,7 +344,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keycbracket }}					
+						{{ page.t[page.lang].key_cbracket }}					
 					</table>	
 				</div>
 		</div>
@@ -357,7 +357,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keycomma }}					
+						{{ page.t[page.lang].key_comma }}					
 					</table>	
 				</div>
 		</div>
@@ -370,7 +370,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keydot }}					
+						{{ page.t[page.lang].key_dot }}					
 					</table>	
 				</div>
 		</div>
@@ -383,7 +383,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyslash }}
+						{{ page.t[page.lang].key_slash }}
 					</table>	
 				</div>
 		</div>
@@ -398,7 +398,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyq }}	
+						{{ page.t[page.lang].key_q }}	
 					</table>	
 				</div>
 		</div>
@@ -410,7 +410,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyw }}	
+						{{ page.t[page.lang].key_w }}	
 					</table>	
 				</div>
 		</div>
@@ -422,7 +422,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keye }}
+						{{ page.t[page.lang].key_e }}
 					</table>	
 				</div>
 		</div>
@@ -434,7 +434,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyr }}
+						{{ page.t[page.lang].key_r }}
 					</table>	
 				</div>
 		</div>
@@ -446,7 +446,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyt }}		
+						{{ page.t[page.lang].key_t }}		
 					</table>	
 				</div>
 		</div>
@@ -458,7 +458,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyy }}	
+						{{ page.t[page.lang].key_y }}	
 					</table>	
 				</div>
 		</div>
@@ -470,7 +470,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 					{{ site.t.l_thc[page.lang] }}
-					{{ page.t[page.lang].l_keyu }}	
+					{{ page.t[page.lang].key_u }}	
 					</table>	
 				</div>
 		</div>
@@ -482,7 +482,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyi }}
+						{{ page.t[page.lang].key_i }}
 					</table>	
 				</div>
 		</div>
@@ -494,7 +494,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyo }}	
+						{{ page.t[page.lang].key_o }}	
 					</table>	
 				</div>
 		</div>
@@ -506,7 +506,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyp }}					
+						{{ page.t[page.lang].key_p }}					
 					</table>	
 				</div>
 		</div>
@@ -519,7 +519,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keya }}
+						{{ page.t[page.lang].key_a }}
 					</table>	
 				</div>
 		</div>
@@ -531,7 +531,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keys }}				
+						{{ page.t[page.lang].key_s }}				
 					</table>	
 				</div>
 		</div>
@@ -543,7 +543,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyd }}				
+						{{ page.t[page.lang].key_d }}				
 					</table>	
 				</div>
 		</div>
@@ -555,7 +555,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyf }}			
+						{{ page.t[page.lang].key_f }}			
 					</table>	
 				</div>
 		</div>
@@ -567,7 +567,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyg }}			
+						{{ page.t[page.lang].key_g }}			
 					</table>	
 				</div>
 		</div>
@@ -579,7 +579,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyh }}					
+						{{ page.t[page.lang].key_h }}					
 					</table>	
 				</div>
 		</div>
@@ -591,7 +591,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyj }}
+						{{ page.t[page.lang].key_j }}
 					</table>	
 				</div>
 		</div>
@@ -603,7 +603,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyk }}			
+						{{ page.t[page.lang].key_k }}			
 					</table>	
 				</div>
 		</div>
@@ -615,7 +615,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyl }}			
+						{{ page.t[page.lang].key_l }}			
 					</table>	
 				</div>
 		</div>
@@ -628,7 +628,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyz }}				
+						{{ page.t[page.lang].key_z }}				
 					</table>	
 				</div>
 		</div>
@@ -640,7 +640,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyx }}				
+						{{ page.t[page.lang].key_x }}				
 					</table>	
 				</div>
 		</div>
@@ -652,7 +652,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyc }}
+						{{ page.t[page.lang].key_c }}
 					</table>	
 				</div>
 		</div>
@@ -664,7 +664,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyv }}	
+						{{ page.t[page.lang].key_v }}	
 					</table>	
 				</div>
 		</div>
@@ -676,7 +676,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyb }}
+						{{ page.t[page.lang].key_b }}
 					</table>	
 				</div>
 		</div>
@@ -688,7 +688,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keyn }}
+						{{ page.t[page.lang].key_n }}
 					</table>	
 				</div>
 		</div>
@@ -700,7 +700,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ page.t[page.lang].l_keym }}
+						{{ page.t[page.lang].key_m }}
 					</table>	
 				</div>
 		</div>
