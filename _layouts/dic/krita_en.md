@@ -79,7 +79,7 @@ t:
 #F1
   key_f1: "<tr><td>F1</td><td>Krita Handbook</td><td>Help</td></tr>"
 #Insert
-  key_ins: "<tr><td>Insert</td><td>Insert layer</td><td>Layer</td></tr>"
+  key_insert: "<tr><td>Insert</td><td>Insert layer</td><td>Layer</td></tr>"
 #Delete
   key_delete: "<tr><td>Delete</td><td>Clear</td><td>Editar</td></tr>"
 #1
