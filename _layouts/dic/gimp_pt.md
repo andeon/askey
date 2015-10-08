@@ -86,7 +86,7 @@ t:
 #F11
   key_f11: "<tr><td>F11</td><td>Tela cheia</td><td>Visualizar</td></tr>"
 #Delete
-  key_del: "<tr><td>Delete</td><td>Limpar</td><td>Editar</td></tr>"
+  key_delete: "<tr><td>Delete</td><td>Limpar</td><td>Editar</td></tr>"
 #1
   key_01: "<tr><td>1</td><td>Zoom 1:1</td><td>Visualizar</td></tr>"
 #-
