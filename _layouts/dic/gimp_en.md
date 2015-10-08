@@ -209,7 +209,7 @@ t:
 #about
   l_buttonabout: "About GIMP"
   l_titleabout: "GIMP Keyboard Shortcuts"
-  l_descabout: "Cover the most useful hotkeys for the GIMP under Linux. All keys can be assigned individually: Edit / Preferences / interface / keyboard shortcuts."
+  l_descabout: "Cover the most useful hotkeys for the GIMP under Linux. All keys can be assigned individually: Edit / Preferences / interface / keyboard shortcuts"
   l_linkabout: "Visit GIMP's official website!"
 ---
 

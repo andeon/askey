@@ -126,12 +126,13 @@ t:
   key_t: "<tr><td>T</td><td>Move Tool</td><td>Toolbox</td></tr>
    <tr><td>Ctrl+T</td><td>Transform Tool</td><td>Toolbox</td></tr>"
 #U
-  key_u: "<tr><td>Ctrl+Shift+U</td><td>Desaturate</td><td>Filter</td></tr>
-   <tr><td>Shift+U</td><td>HSV Adjustment</td><td>Toolbox</td></tr>"
+  key_u: "<tr><td>U</td><td>Show common colors</td><td>View</td></tr>
+   <tr><td>Ctrl+Shift+U</td><td>Desaturate</td><td>Filter</td></tr>
+   <tr><td>Shift+U</td><td>HSV Adjustment</td><td>Filter</td></tr>"
 #I
   key_i: "<tr><td>I</td><td>Decrease Opacity</td><td>Brushes</td></tr>
    <tr><td>Ctrl+I</td><td>Invert</td><td>filter</td></tr>
-   <tr><td>Shift+I</td><td>Color Selector</td><td>filter</td></tr>
+   <tr><td>Shift+I</td><td>Color Selector</td><td>View</td></tr>
    <tr><td>Ctrl+Alt+I</td><td>Scale Image To New Size</td><td>Image</td></tr>"
 #O
   key_o: "<tr><td>O</td><td>Increase Opacity</td><td>Brushes</td></tr>

@@ -206,8 +206,8 @@ t:
 #about
   l_buttonabout: "Sobre GIMP"
   l_titleabout: "Atalhos de Teclado do GIMP"
-  l_descabout: "Cobre as teclas de atalho mais úteis para o GIMP no Linux. Todas as teclas podem ser atribuídas individualmente em: Editar / Preferências / interface / atalhos de teclado."
-  l_linkabout: "Visit GIMP's official website!"
+  l_descabout: "Cobre as teclas de atalho mais úteis para o GIMP no Linux. Todas as teclas podem ser atribuídas individualmente em: Editar / Preferências / interface / atalhos de teclado"
+  l_linkabout: "Visite o site oficial do GIMP!"
 ---
 
 
