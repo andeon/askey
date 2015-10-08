@@ -189,7 +189,7 @@ t:
 #about
   l_buttonabout: "Sobre Krita"
   l_titleabout: "Atalhos de Teclado do Krita"
-  l_descabout: "Cobre as teclas de atalho mais úteis para o GIMP no Linux. Todas as teclas podem ser atribuídas individualmente em: Configurações / Configurar Atalhos"
+  l_descabout: "Cobre as teclas de atalho mais úteis para o Krita no Linux. Todas as teclas podem ser atribuídas individualmente em: Configurações / Configurar Atalhos"
   l_linkabout: "Visite o site oficial do Krita!"
 ---
 
