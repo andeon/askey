@@ -186,7 +186,7 @@ t:
   key_x: "<tr><td>X</td><td>Trocar Cores</td><td>Caixa de ferramentas</td></tr>
   <tr><td>Ctrl+X</td><td>Cortar</td><td>Editar</td></tr>"
 #C
-  key_c: "<tr><td>C</td><td>clonagem</td><td>Caixa de ferramentas</td></tr>
+  key_c: "<tr><td>C</td><td>Clonagem</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Ctrl+C</td><td>Copiar</td><td>Editar</td></tr>
    <tr><td>Shift+Ctrl+C</td><td>Copiar como é visto</td><td>Editar</td></tr>"
 #V
