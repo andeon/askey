@@ -1,0 +1,196 @@
+---
+layout: main_krita
+t:
+ pt:
+#Tooltip_Key_fn_etc
+  tooltip_esc: "Fechar janelas"
+  tooltip_f1: "Manual do Krita"
+# tooltip_f2: ""
+# tooltip_f3: ""
+# tooltip_f4: ""
+# tooltip_f5: ""
+# tooltip_f6: ""
+# tooltip_f7: ""
+# tooltip_f8: ""
+# tooltip_f9: ""
+# tooltip_f10: ""
+# tooltip_f11: ""
+# tooltip_f12: ""
+  tooltip_insert: "Inserir camada"
+# tooltip_printscr: ""
+  tooltip_delete: "Limpar"
+# tooltip_singlequote: "" 
+  tooltip_tab: "Mostrar somente a Tela"
+  tooltip_1: "Zoom 1:1"
+# tooltip_2: ""
+# tooltip_3: ""
+  tooltip_4: "Girar área para esquerda"
+  tooltip_5: "Restaurar área"
+  tooltip_6: "Girar área para direita"
+# tooltip_7: ""
+# tooltip_8: ""
+# tooltip_9: ""
+# tooltip_0: ""
+  tooltip_minus: "Diminuir zoom"
+  tooltip_plus: "Aumentar zoom"
+  tooltip_backspace: "Preencher com cor de fundo"
+# tooltip_home: ""
+  tooltip_pgup: "Ativar a próxima camada"
+  tooltip_pgdn: "Ativar a camada anterior"
+# tooltip_end: ""
+  tooltip_obracket: "Diminuir o tamanho do pincel"
+  tooltip_cbracket: "Aumentar o tamanho do pincel"
+  tooltip_comma: "Predefinição favorita seguinte"
+  tooltip_dot: "Predefinição favorita anterior"
+#  tooltip_colon: "" 
+#  tooltip_space: ""
+  tooltip_slash: "Mudar para a predefinição anterior" 
+
+#Tooltips_Key_QWERTY
+  tooltip_q: "Ferramenta multi-pincel"
+  tooltip_w: "Modo em ciclo"
+  tooltip_e: "Aplicar o modo boracha"
+  tooltip_r: "Selecionar camada"
+  tooltip_t: "Ferramenta movimento"
+#  tooltip_y: ""
+  tooltip_u: "Mostrar cores frequentes"
+  tooltip_i: "Diminuir opacidade"
+  tooltip_o: "Aumentar opacidade"
+  tooltip_p: "Ferramenta seletor de cores"
+#Tooltip_Key_ASDFG
+#  tooltip_a: ""
+#  tooltip_s: ""
+  tooltip_d: "Limpar a cor principal e a de Fundo"
+  tooltip_g: "Ferramenta Gradiente"
+  tooltip_h: "Mostrar histórico de cores"
+  tooltip_j: "Ferramenta de seleção elíptica"
+  tooltip_k: "Escurecer a cor do pincel"
+  tooltip_l: "Clarear a cor do pincel"
+#Tooltip_Key_ZXCVB
+#  tooltip_z: ""
+  tooltip_x: "Trocar a cor principal com a de fundo"
+  tooltip_c: "Ferramenta de recorte"
+  tooltip_b: "Ferramenta de traços livres de pincel"
+#  tooltip_n: ""
+  tooltip_m: "Espelho"
+#Tablet_Popup_fn_etc
+#Esc
+  key_esc: "<tr><td>Esc</td><td>Fechar janelas</td><td>Janela</td></tr>"
+#F1
+  key_f1: "<tr><td>F1</td><td>Manual do Krita</td><td>Help</td></tr>"
+#Insert
+  key_insert: "<tr><td>Insert</td><td>Inserir camada</td><td>Camada</td></tr>"
+#Delete
+  key_delete: "<tr><td>Delete</td><td>limpar</td><td>Editar</td></tr>"
+#1
+  key_1: "<tr><td>1</td><td>Zoom 1:1</td><td>Exibir</td></tr>"
+#4
+  key_4: "<tr><td>4</td><td>Restaurar área</td><td>Canvas</td></tr>"
+#5
+  key_5: "<tr><td>5</td><td>Rotate Reset</td><td>Canvas</td></tr>"
+#6
+  key_6: "<tr><td>6</td><td>Girar área para direita</td><td>Canvas</td></tr>"
+#-
+  key_minus: "<tr><td>-</td><td>Diminuir zoom</td><td>Exibir</td></tr>"
+#+
+  key_plus: "<tr><td>=</td><td>Aumentar zoom</td><td>Exibir</td></tr>"
+#Backspace
+  key_backspace: "<tr><td>Backspace</td><td>Preencher com cor de fundo</td><td>Editar</td></tr>
+   <tr><td>Shift+Backspace</td><td>Preencher com cor de Frente</td><td>Editar</td></tr>"
+#Open bracket
+  key_obracket: "<tr><td>[</td><td>Diminuir o tamanho do pincel</td><td>Pincéis</td></tr>"
+#Close bracket
+  key_cbracket: "<tr><td>]</td><td>Aumentar o tamanho do pincel</td><td>Pincéis</td></tr>"
+#Tab
+  key_tab: "<tr><td>Tab</td><td>Mostrar somente a Tela</td><td>Exibir</td></tr>"
+#PgUp
+  key_pgup: "<tr><td>PgUp</td><td>Ativar a próxima camada</td><td>Camada</td></tr>"
+#PgDn
+  key_pgdn: "<tr><td>PgDn</td><td>Ativar a camada anterior</td><td>Camada</td></tr>"
+#,
+  key_comma: "<tr><td>Ctrl+,</td><td>Predefinição favorita seguinte</td><td>Pincéis</td></tr>"
+#.
+  key_dot: "<tr><td>Ctrl+.</td><td>Predefinição favorita anterior</td><td>Pincéis</td></tr>"
+#/
+  key_slash: "<tr><td>/</td><td>Mudar para a predefinição anterior</td><td>Pincéis</td></tr>"
+#Tablet_Popup_QWERTY
+#Q
+  key_q: "<tr><td>Q</td><td>Ferramenta multi-pincel</td><td>Caixa de ferramentas</td></tr>"
+#W
+  key_w: "<tr><td>W</td><td>Modo em ciclo</td><td>Exibir</td></tr>"
+#E
+  key_e: "<tr><td>E</td><td>Aplicar o modo boracha</td><td>Barra de ferramentas</td></tr>"
+#R
+  key_r: "<tr><td>R</td><td>Selecionar camada</td><td>Camada</td></tr>"
+#T
+  key_t: "<tr><td>T</td><td>Ferramenta movimento</td><td>Caixa de ferramentas</td></tr>
+   <tr><td>Ctrl+T</td><td>Ferramenta de transformação</td><td>Caixa de ferramentas</td></tr>"
+#U
+  key_u: "<tr><td>U</td><td>Mostrar cores frequentes</td><td>Exibir</td></tr>
+   <tr><td>Ctrl+Shift+U</td><td>Reduzir saturação</td><td>Filtros</td></tr>
+   <tr><td>Shift+U</td><td>Ajuste do HSV</td><td>Filtros</td></tr>"
+#I
+  key_i: "<tr><td>I</td><td>Diminuir opacidade</td><td>Pincéis</td></tr>
+   <tr><td>Ctrl+I</td><td>Inverter</td><td>Filtros</td></tr>
+   <tr><td>Shift+I</td><td>Seletor de cores</td><td>Exibir</td></tr>
+   <tr><td>Ctrl+Alt+I</td><td>Redimensionar imagem para um novo tamanho</td><td>Image</td></tr>"
+#O
+  key_o: "<tr><td>O</td><td>Aumentar opacidade</td><td>Pincéis</td></tr>
+   <tr><td>Ctrl+O</td><td>Abrir</td><td>Arquivo</td></tr>"
+#P
+  key_p: "<tr><td>P</td><td>Ferramenta seletor de cores</td><td>Caixa de ferramentas</td></tr>
+   <tr><td>Ctrl+P</td><td>Imprimir</td><td>Arquivo</td></tr>"
+#Popup_ASDFG
+#A
+  key_a: "<tr><td>Ctrl+A</td><td>Selecionar tudo</td><td>Seleção</td></tr>	
+   <tr><td>Shift+Ctrl+A</td><td>Desmarcar</td><td>Seleção</td></tr>"
+#S
+  key_s: "<tr><td>Ctrl+S</td><td>Salvar</td><td>Arquivo</td></tr>
+   <tr><td>Shift+Ctrl+S</td><td>Salvar como</td><td>Arquivo</td></tr>"
+#D
+  key_d: "<tr><td>D</td><td>Limpar a cor principal e a de Fundo</td><td>Caixa de ferramentas</td></tr>
+   <tr><td>Shift+Ctrl+D</td><td>Selecionar novamente</td><td>Seleção</td></tr>"
+#F
+  key_f: "<tr><td>Shift+Ctrl+F</td><td>Tela cheia</td><td>Exibir</td></tr>"
+#G
+  key_g: "<tr><td>Ctrl+G</td><td>Ferramenta Gradiente</td><td>Caixa de ferramentas</td></tr>"
+#H
+  key_h: "<tr><td>H</td><td>Mostrar histórico de cores</td><td>Caixa de ferramentas</td></tr>"
+#J
+  key_j: "<tr><td>J</td><td>Ferramenta de seleção elíptica</td><td>Caixa de ferramentas</td></tr>
+   <tr><td>­Ctrl+J</td><td>Duplicar camada ou máscara</td><td>Camada</td></tr>
+   <tr><td>­Ctrl+Alt+J</td><td>Copiar seleção para nova camada</td><td>Camada</td></tr>
+   <tr><td>Shift+­Ctrl+J</td><td>Recortar a Seleção em uma nova camada</td><td>Camada</td></tr>"
+#K
+  key_k: "<tr><td>K</td><td>Escurecer a cor do pincel</td><td>Pincéis</td></tr>"	
+#L
+  key_l: "<tr><td>L</td><td>Clarear a cor do pincel</td><td>Pincéis</td></tr>	
+   <tr><td>Ctrl+L</td><td>Níveis</td><td>Filtros</td></tr>"
+#Popup_ZXCVB
+#Z
+  key_z: "<tr><td>Ctrl+Z</td><td>Desfazer</td><td>Arquivo</td></tr>
+   <tr><td>Shift+Ctrl+Z</td><td>Refazer</td><td>Arquivo</td></tr>"
+#X
+  key_x: "<tr><td>X</td><td>Trocar a cor princial com a de fundo</td><td>Caixa de ferramentas</td></tr>
+   <tr><td>Ctrl+X</td><td>Recortar</td><td>Editar</td></tr>"
+#C
+  key_c: "<tr><td>C</td><td>Ferramenta de recorte</td><td>Caixa de ferramentas</td></tr>
+   <tr><td>Ctrl+C</td><td>Copiar</td><td>Editar</td></tr>
+   <tr><td>Shift+Ctrl+C</td><td>Cópia mesclada</td><td>Editar</td></tr>"
+#V
+  key_v: "<tr><td>Ctrl+V</td><td>Colar</td><td>Editar</td></tr>"
+#B
+  key_b: "<tr><td>B</td><td>Ferramenta de traços livres de pincel</td><td>Caixa de ferramentas</td></tr>
+   <tr><td>Ctrl+B</td><td>Balanceameno de cor</td><td>Filtros</td></tr>"
+#N
+  key_n: "<tr><td>Ctrl+N</td><td>Novo</td><td>Arquivo</td></tr>"
+#M
+  key_m: "<tr><td>M</td><td>Espelho</td><td>Exibir</td></tr>"
+#about
+  l_buttonabout: "Sobre Krita"
+  l_titleabout: "Atalhos de Teclado do Krita"
+  l_descabout: "Cobre as teclas de atalho mais úteis para o GIMP no Linux. Todas as teclas podem ser atribuídas individualmente em: Configurações / Configurar Atalhos"
+  l_linkabout: "Visite o site oficial do Krita!"
+---
+
+
