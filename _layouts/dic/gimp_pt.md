@@ -88,7 +88,7 @@ t:
 #Delete
   key_delete: "<tr><td>Delete</td><td>Limpar</td><td>Editar</td></tr>"
 #1
-  key_01: "<tr><td>1</td><td>Zoom 1:1</td><td>Visualizar</td></tr>"
+  key_1: "<tr><td>1</td><td>Zoom 1:1</td><td>Visualizar</td></tr>"
 #-
   key_minus: "<tr><td>-</td><td>Diminuir zoom</td><td>Visualizar</td></tr>"
 #+
