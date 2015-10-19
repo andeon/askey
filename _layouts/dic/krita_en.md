@@ -81,7 +81,7 @@ t:
 #Insert
   key_insert: "<tr><td>Insert</td><td>Insert layer</td><td>Layer</td></tr>"
 #Delete
-  key_delete: "<tr><td>Delete</td><td>Clear</td><td>Editar</td></tr>"
+  key_delete: "<tr><td>Delete</td><td>Clear</td><td>Edit</td></tr>"
 #1
   key_1: "<tr><td>1</td><td>Zoom 1:1</td><td>View</td></tr>"
 #4

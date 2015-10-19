@@ -1,0 +1,191 @@
+---
+layout: main_mypaint
+t:
+ en:
+#Tooltip Keys
+  tooltip_esc: "Close Dialogs"
+#  tooltip_f1: ""
+  tooltip_f2: "Save as Scrap"
+  tooltip_f3: "Open Most Recent"
+#  tooltip_f4: ""
+  tooltip_f5: "Revert"
+  tooltip_f6: "Open Previous Scrap"
+  tooltip_f7: "Open Next Scrap"
+#  tooltip_f8: ""
+#  tooltip_f9: ""
+  tooltip_f10: "Fit"
+  tooltip_f11: "Fullscreen"
+  tooltip_f12: "Reset and Center"
+#  tooltip_insert: ""
+#  tooltip_printscr: ""
+  tooltip_delete: "Clear"
+#  tooltip_singlequote: "" 
+  tooltip_tab: "Hide Controls in Fullscreen"
+#  tooltip_1: ""
+#  tooltip_2: ""
+#  tooltip_3: ""
+#  tooltip_4: ""
+#  tooltip_5: ""
+#  tooltip_6: ""
+#  tooltip_7: ""
+#  tooltip_8: ""
+#  tooltip_9: ""
+#  tooltip_0: ""
+#  tooltip_minus: ""
+#  tooltip_plus: ""
+#  tooltip_backspace: ""
+  tooltip_home: "Layer Solo"
+  tooltip_pgup: "Above"
+  tooltip_pgdn: "Below"
+#  tooltip_end: ""
+#  tooltip_obracket: ""
+#  tooltip_cbracket: ""
+  tooltip_comma: "Zoom Out"
+  tooltip_dot: "Zoom In"
+#  tooltip_colon: "" 
+#  tooltip_space: ""
+#  tooltip_slash: "" 
+
+#Tooltips_Key_QWERTY
+  tooltip_q: "Save to Most Recent"
+  tooltip_w: "Pick Stroke and Layer"
+  tooltip_e: "Eraser"
+  tooltip_r: "Pick Color"
+#  tooltip_t: ""
+  tooltip_y: "Redo"
+  tooltip_u: "Mirror Vertical"
+  tooltip_i: "Mirror Horizotal"
+  tooltip_o: "Ellipses and Circles"
+  tooltip_p: "Freehand Drawing"
+
+#Tooltip_Key_ASDFG
+  tooltip_a: "Decrease Opacity"
+  tooltip_s: "Increase Opacity"
+  tooltip_d: "Smaller"
+  tooltip_f: "Bigger"
+#  tooltip_g: ""
+  tooltip_h: "At Cursor"
+  tooltip_j: "Connected Lines"
+  tooltip_k: "Lines an Curves"
+  tooltip_l: "Layers Window"
+
+#Tooltip_Key_ZXCVB
+  tooltip_z: "Undo"
+  tooltip_x: "Color History"
+  tooltip_c: "Change Color (wash)"
+  tooltip_v: "Change Color"
+  tooltip_b: "Change Brush"
+  tooltip_n: "Paint Over"
+#  tooltip_m: ""
+
+#Table Popup fn
+#Esc
+  key_esc: "<tr><td>Esc</td><td>Close Dialogs</td><td>*Windows</td></tr>"
+#F2
+  key_f2: "<tr><td>F2</td><td>Save as Scrap</td><td>File</td></tr>"
+#F3
+  key_f3: "<tr><td>F3</td><td>Open Most Recent</td><td>File</td></tr>"
+#F5
+  key_f5: "<tr><td>F5</td><td>Revert</td><td>File</td></tr>"
+#F6
+  key_f6: "<tr><td>F6</td><td>Open Previous Scrap</td><td>File</td></tr>"
+#F7
+  key_f7: "<tr><td>F7</td><td>Open Next Scrap</td><td>File</td></tr>"
+#F10
+  key_f10: "<tr><td>F10</td><td>Fit</td><td>File</td></tr>"
+#F11
+  key_f11: "<tr><td>F11</td><td>Fullscreen</td><td>View</td></tr>"
+#F12
+  key_f12: "<tr><td>F12</td><td>Reset and Center</td><td>View</td></tr>"
+#Delete
+  key_delete: "<tr><td>Delete</td><td>Clear</td><td>Layer</td></tr>"
+#Tab
+  key_tab: "<tr><td>Tab</td><td>Hide Controls in Fullscreen</td><td>View</td></tr>"
+#Home
+  key_home: "<tr><td>Home</td><td>Layer Solo</td><td>View</td></tr>"
+#PgUp
+  key_pgup: "<tr><td>PgUp</td><td>Above</td><td>Layer</td></tr>"
+#PgDn
+  key_pgdn: "<tr><td>PgDn</td><td>Below</td><td>Layer</td></tr>"
+#,
+  key_comma: "<tr><td>,</td><td>Zoom Out</td><td>Brushes</td></tr>"
+#.
+  key_dot: "<tr><td>.</td><td>Zoom In</td><td>Brushes</td></tr>"
+
+#Table Popup QWERTY
+#Q
+  key_q: "<tr><td>Q</td><td>Save to Most Recent</td><td>Brush</td></tr>
+   <tr><td>Ctrl+Q</td><td>Quit</td><td>File</td></tr>"
+#W
+  key_w: "<tr><td>W</td><td>Pick Stroke and Layer</td><td>Brush</td></tr>"
+#E
+  key_e: "<tr><td>E</td><td>Eraser</td><td>Brush</td></tr>
+   <tr><td>Shift+Ctrl+E</td><td>Export</td><td>File</td></tr>"
+#R
+  key_r: "<tr><td>R</td><td>Pick Color</td><td>Layer</td></tr>"
+#Y
+  key_y: "<tr><td>Y</td><td>Redo</td><td>Edit</td></tr>"
+#U
+  key_u: "<tr><td>U</td><td>Mirror Vertical</td><td>View</td></tr>"
+#I
+  key_i: "<tr><td>I</td><td>Mirror Horizontal</td><td>View</td></tr>
+   <tr><td>Shift+I</td><td>Symmetrical Painting Active</td><td>Edit</td></tr>"
+#O
+  key_o: "<tr><td>O</td><td>Ellipses and Circles</td><td>Edit</td></tr>
+   <tr><td>Shift+O</td><td>Decrease</td><td>Layer</td></tr>"
+#P
+  key_p: "<tr><td>P</td><td>Freehand Drawing</td><td>Edit</td></tr>
+   <tr><td>Shift+P</td><td>Increase</td><td>Layer</td></tr>"
+
+#Table Popup ASDFG
+#A
+  key_a: "<tr><td>A</td><td>Decrease Opacity</td><td>Select</td></tr>"
+#S
+  key_s: "<tr><td>S</td><td>Increase Opacity</td><td>File</td></tr>
+   <tr><td>Shift+S</td><td>Scratchpad Window</td><td>Scratchpad</td></tr>
+   <tr><td>Crtl+S</td><td>Save</td><td>File</td></tr>
+   <tr><td>Shift+Crtl+S</td><td>Save As</td><td>File</td></tr>"
+#D
+  key_d: "<tr><td>D</td><td>Smaller</td><td>Brush</td></tr>"
+#F
+  key_f: "<tr><td>F</td><td>Bigger</td><td>Brush</td></tr>"
+#H
+  key_h: "<tr><td>H</td><td>At Cursor</td><td>Layer</td></tr>"
+#J
+  key_j: "<tr><td>J</td><td>Connected Lines</td><td>Edit</td></tr>"
+#K
+  key_k: "<tr><td>K</td><td>Lines and Curves</td><td>Edit</td></tr>
+   <tr><td>Shift+K</td><td>Colorize</td><td>Brush</td></tr>"	
+#L
+  key_l: "<tr><td>L</td><td>Layers Window</td><td>Layer</td></tr>	
+   <tr><td>Shift+L</td><td>Lock Alpha</td><td>Brush</td></tr>"
+
+#Table Popup ZXCVB
+
+#Z
+  key_z: "<tr><td>Ctrl+Z</td><td>Undo</td><td>File</td></tr>"
+#X
+  key_x: "<tr><td>X</td><td>Color History</td><td>Color</td></tr>"
+#C
+  key_c: "<tr><td>C</td><td>Change Color (wash)</td><td>Color</td></tr>
+   <tr><td>Ctrl+C</td><td>Copy</td><td>Layer</td></tr>
+   <tr><td>Shift+C</td><td>Color Window</td><td>Color</td></tr>"
+#V
+  key_v: "<tr><td>V</td><td>Change Color</td><td>Color</td></tr>
+   <tr><td>Ctrl+V</td><td>Paste</td><td>Layer</td></tr>"
+#B
+  key_b: "<tr><td>B</td><td>Change Brush</td><td>Brush</td></tr>
+   <tr><td>Shift+B</td><td>Brushes Window</td><td>Brush</td></tr>
+   <tr><td>Ctrl+B</td><td>Edit Brush Settings</td><td>Brush</td></tr>"
+#N
+  key_n: "<tr><td>N</td><td>Paint Over</td><td>Brush</td></tr>
+   <tr><td>Ctrl+N</td><td>New</td><td>File</td></tr>"
+
+#about
+  l_buttonabout: "About Mypaint"
+  l_titleabout: "Mypaint Keyboard Shortcuts"
+  l_descabout: "Cover the most useful hotkeys for the Mypaint under Linux. All keys can be assigned individually: Edit / Preferences / keys."
+  l_linkabout: "Visit Mypaint's official website!"
+---
+
+
