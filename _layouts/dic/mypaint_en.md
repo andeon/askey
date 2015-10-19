@@ -78,7 +78,7 @@ t:
   tooltip_n: "Paint Over"
 #  tooltip_m: ""
 
-#Table Popup fn
+#Popup Table Key explanation fn
 #Esc
   key_esc: "<tr><td>Esc</td><td>Close Dialogs</td><td>*Windows</td></tr>"
 #F2
@@ -112,7 +112,7 @@ t:
 #.
   key_dot: "<tr><td>.</td><td>Zoom In</td><td>Brushes</td></tr>"
 
-#Table Popup QWERTY
+#Popup Table Key explanation QWERTY
 #Q
   key_q: "<tr><td>Q</td><td>Save to Most Recent</td><td>Brush</td></tr>
    <tr><td>Ctrl+Q</td><td>Quit</td><td>File</td></tr>"
@@ -137,7 +137,7 @@ t:
   key_p: "<tr><td>P</td><td>Freehand Drawing</td><td>Edit</td></tr>
    <tr><td>Shift+P</td><td>Increase</td><td>Layer</td></tr>"
 
-#Table Popup ASDFG
+#Popup Table Key explanation ASDFG
 #A
   key_a: "<tr><td>A</td><td>Decrease Opacity</td><td>Select</td></tr>"
 #S
@@ -160,7 +160,7 @@ t:
   key_l: "<tr><td>L</td><td>Layers Window</td><td>Layer</td></tr>	
    <tr><td>Shift+L</td><td>Lock Alpha</td><td>Brush</td></tr>"
 
-#Table Popup ZXCVB
+#Popup Table Key explanation ZXCVB
 
 #Z
   key_z: "<tr><td>Ctrl+Z</td><td>Undo</td><td>File</td></tr>"
@@ -181,7 +181,7 @@ t:
   key_n: "<tr><td>N</td><td>Paint Over</td><td>Brush</td></tr>
    <tr><td>Ctrl+N</td><td>New</td><td>File</td></tr>"
 
-#about
+#Popup about
   l_buttonabout: "About Mypaint"
   l_titleabout: "Mypaint Keyboard Shortcuts"
   l_descabout: "Cover the most useful hotkeys for the Mypaint under Linux. All keys can be assigned individually: Edit / Preferences / keys."
