@@ -141,7 +141,7 @@ t:
 #A
   key_a: "<tr><td>A</td><td>Decrease Opacity</td><td>Select</td></tr>"
 #S
-  key_s: "<tr><td>S</td><td>Increase Opacity</td><td>File</td></tr>
+  key_s: "<tr><td>S</td><td>Increase Opacity</td><td>Brush</td></tr>
    <tr><td>Shift+S</td><td>Scratchpad Window</td><td>Scratchpad</td></tr>
    <tr><td>Crtl+S</td><td>Save</td><td>File</td></tr>
    <tr><td>Shift+Crtl+S</td><td>Save As</td><td>File</td></tr>"
