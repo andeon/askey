@@ -76,7 +76,8 @@ t:
   tooltip_b: "Paths"
   tooltip_n: "Pencil"
   tooltip_m: "Move"
-#Tablet_Popup_fn_etc
+
+#Popup Table Key explanation fn_etc
 #Esc
   key_esc: "<tr><td>Esc</td><td>Close Dialogs</td><td>Dialogs</td></tr>"
 #F1
@@ -113,7 +114,8 @@ t:
   key_dot: "<tr><td>Ctrl+.</td><td>Fill with background color</td><td>Edit</td></tr>"
 #;
   key_semicolon: "<tr><td>Ctrl+;</td><td>Fill with pattern</td><td>Edit</td></tr>"
-#Tablet_Popup_QWERTY
+
+#Popup Table Key explanation QWERTY
 #Q
   key_q: "<tr><td>Q</td><td>Align</td><td>Toolbox</td></tr>
    <tr><td>Shift+Q</td><td>Toggle quickmask</td><td>Select</td></tr>	
@@ -148,7 +150,8 @@ t:
 #P
   key_p: "<tr><td>P</td><td>Paintbrush</td><td>Toolbox</td></tr>
    <tr><td>Shift+P</td><td>Perspective</td><td>Toolbox</td></tr>"
-#Popup_ASDFG
+
+#Popup Table Key explanation ASDFG
 #A
   key_a: "<tr><td>A</td><td>Airbrush</td><td>Toolbox</td></tr>
    <tr><td>Ctrl+A</td><td>All</td><td>Select</td></tr>	
@@ -181,7 +184,8 @@ t:
   key_l: "<tr><td>L</td><td>Blend</td><td>Toolbox</td></tr>	
    <tr><td>Shift+Ctrl+L</td><td>Float selection</td><td>Selection</td></tr>	
    <tr><td>Ctrl+L</td><td>Layers</td><td>Dialogs</td></tr>"
-#Popup_ZXCVB
+
+#Popup Table Key explanation ZXCVB
 #Z
   key_z: "<tr><td>Z</td><td>Zoom</td><td>Toolbox</td></tr>
    <tr><td>Ctrl+Z</td><td>Undo</td><td>Edit</td></tr>"
@@ -206,7 +210,7 @@ t:
   key_m: "<tr><td>M</td><td>Move</td><td>Toolbox</td></tr>
    <tr><td>Shift+M</td><td>Measure</td><td>Toolbox</td></tr>
    <tr><td>Ctrl+M</td><td>Merge visible layers</td><td>Image</td></tr>"
-#about
+#Popup about
   l_buttonabout: "About GIMP"
   l_titleabout: "GIMP Keyboard Shortcuts"
   l_descabout: "Cover the most useful hotkeys for the GIMP under Linux. All keys can be assigned individually: Edit / Preferences / interface / keyboard shortcuts"

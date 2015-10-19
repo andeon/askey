@@ -74,7 +74,8 @@ t:
   tooltip_b: "Degradês"
   tooltip_n: "Degradês"
   tooltip_m: "Movimento"
-#Tablet_Popup_fn_etc
+
+#Popup Table Key explanation fn etc
 #Esc
   key_esc: "<tr><td>Esc</td><td>Fechar diálogos</td><td>Diálogos</td></tr>"
 #F1
@@ -111,7 +112,8 @@ t:
   key_dot: "<tr><td>Ctrl+,</td><td>Preencher com cor de fundo</td><td>Editar</td></tr>"
 #;
   key_semicolon: "<tr><td>Ctrl+;</td><td>Preencher com textura</td><td>Editar</td></tr>"
-#Tablet_Popup_QWERTY
+
+#Popup Table Key explanation QWERTY
 #Q
   key_q: "<tr><td>Q</td><td>Alinhamento</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Shift+Q</td><td>Ligar/des. máscara rápida</td><td>Selecionar</td></tr>	
@@ -146,7 +148,8 @@ t:
 #P
   key_p: "<tr><td>P</td><td>Pincel</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Shift+P</td><td>Perspectiva</td><td>Caixa de ferramentas</td></tr>"
-#Popup_ASDFG
+
+#Popup Table Key explanation ASDFG
 #A
   key_a: "<tr><td>A</td><td>Aerográfo</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Ctrl+A</td><td>Tudo</td><td>Selecionar</td></tr>	
@@ -178,7 +181,8 @@ t:
   key_l: "<tr><td>L</td><td>Degradês</td><td>Toolbox</td></tr>
    <tr><td>Shift+Ctrl+L</td><td>flutuar</td><td>Selectionar</td></tr>
    <tr><td>Ctrl+L</td><td>Camadas</td><td>Diálogos</td></tr>"
-#Popup_ZXCVB
+
+#Popup Table Key explanation ZXCVB
 #Z
   key_z: "<tr><td>Z</td><td>Zoom</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Ctrl+Z</td><td>Desfazer</td><td>Editar</td></tr>"
@@ -203,7 +207,8 @@ t:
   key_m: "<tr><td>M</td><td>Movimento</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Shift+M</td><td>Medidas</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Ctrl+M</td><td>Combinar camadas visíveis</td><td>Imagem</td></tr>"
-#about
+
+#Popup about
   l_buttonabout: "Sobre GIMP"
   l_titleabout: "Atalhos de Teclado do GIMP"
   l_descabout: "Cobre as teclas de atalho mais úteis para o GIMP no Linux. Todas as teclas podem ser atribuídas individualmente em: Editar / Preferências / interface / atalhos de teclado"

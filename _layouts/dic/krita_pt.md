@@ -57,6 +57,7 @@ t:
   tooltip_i: "Diminuir opacidade"
   tooltip_o: "Aumentar opacidade"
   tooltip_p: "Ferramenta seletor de cores"
+
 #Tooltip_Key_ASDFG
 #  tooltip_a: ""
 #  tooltip_s: ""
@@ -73,7 +74,8 @@ t:
   tooltip_b: "Ferramenta de traços livres de pincel"
 #  tooltip_n: ""
   tooltip_m: "Espelho"
-#Tablet_Popup_fn_etc
+
+#Popup Table Key explanation fn etc
 #Esc
   key_esc: "<tr><td>Esc</td><td>Fechar janelas</td><td>Janela</td></tr>"
 #F1
@@ -113,7 +115,8 @@ t:
   key_dot: "<tr><td>Ctrl+.</td><td>Predefinição favorita anterior</td><td>Pincéis</td></tr>"
 #/
   key_slash: "<tr><td>/</td><td>Mudar para a predefinição anterior</td><td>Pincéis</td></tr>"
-#Tablet_Popup_QWERTY
+
+#Popup Table Key explanation QWERTY
 #Q
   key_q: "<tr><td>Q</td><td>Ferramenta multi-pincel</td><td>Caixa de ferramentas</td></tr>"
 #W
@@ -140,7 +143,8 @@ t:
 #P
   key_p: "<tr><td>P</td><td>Ferramenta seletor de cores</td><td>Caixa de ferramentas</td></tr>
    <tr><td>Ctrl+P</td><td>Imprimir</td><td>Arquivo</td></tr>"
-#Popup_ASDFG
+
+#Popup Table Key explanation ASDFG
 #A
   key_a: "<tr><td>Ctrl+A</td><td>Selecionar tudo</td><td>Seleção</td></tr>	
    <tr><td>Shift+Ctrl+A</td><td>Desmarcar</td><td>Seleção</td></tr>"
@@ -166,7 +170,8 @@ t:
 #L
   key_l: "<tr><td>L</td><td>Clarear a cor do pincel</td><td>Pincéis</td></tr>	
    <tr><td>Ctrl+L</td><td>Níveis</td><td>Filtros</td></tr>"
-#Popup_ZXCVB
+
+#Popup Table Key explanation ZXCVB
 #Z
   key_z: "<tr><td>Ctrl+Z</td><td>Desfazer</td><td>Arquivo</td></tr>
    <tr><td>Shift+Ctrl+Z</td><td>Refazer</td><td>Arquivo</td></tr>"
@@ -186,7 +191,8 @@ t:
   key_n: "<tr><td>Ctrl+N</td><td>Novo</td><td>Arquivo</td></tr>"
 #M
   key_m: "<tr><td>M</td><td>Espelho</td><td>Exibir</td></tr>"
-#about
+
+#Popup about
   l_buttonabout: "Sobre Krita"
   l_titleabout: "Atalhos de Teclado do Krita"
   l_descabout: "Cobre as teclas de atalho mais úteis para o Krita no Linux. Todas as teclas podem ser atribuídas individualmente em: Configurações / Configurar Atalhos"

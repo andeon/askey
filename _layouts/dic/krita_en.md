@@ -73,7 +73,8 @@ t:
   tooltip_b: "Freehand Brush Tool"
 #  tooltip_n: ""
   tooltip_m: "Mirror View"
-#Tablet_Popup_fn_etc
+
+#Popup Table Key Explanation fn etc
 #Esc
   key_esc: "<tr><td>Esc</td><td>Close Windows</td><td>Windows</td></tr>"
 #F1
@@ -113,7 +114,8 @@ t:
   key_dot: "<tr><td>Ctrl+.</td><td>Next Favorite Preset</td><td>Brushes</td></tr>"
 #/
   key_slash: "<tr><td>/</td><td>Switch to Previous Preset</td><td>Brushes</td></tr>"
-#Tablet_Popup_QWERTY
+
+#Popup Table Key Explanation QWERTY
 #Q
   key_q: "<tr><td>Q</td><td>Multibrush Tool</td><td>Toolbox</td></tr>"
 #W
@@ -140,7 +142,8 @@ t:
 #P
   key_p: "<tr><td>P</td><td>Color Selector Tool</td><td>Toolbox</td></tr>
    <tr><td>Ctrl+P</td><td>Print</td><td>File</td></tr>"
-#Popup_ASDFG
+
+#Popup Table Key explanation ASDFG
 #A
   key_a: "<tr><td>Ctrl+A</td><td>Select All</td><td>Select</td></tr>	
    <tr><td>Shift+Ctrl+A</td><td>Deselect All</td><td>Select</td></tr>"
@@ -166,7 +169,8 @@ t:
 #L
   key_l: "<tr><td>L</td><td>Make brush color lighter</td><td>Brushes</td></tr>	
    <tr><td>Ctrl+L</td><td>Levels</td><td>Filter</td></tr>"
-#Popup_ZXCVB
+
+#Popup Table Key explanation ZXCVB
 #Z
   key_z: "<tr><td>Ctrl+Z</td><td>Undo</td><td>File</td></tr>
    <tr><td>Shift+Ctrl+Z</td><td>Redo</td><td>File</td></tr>"
@@ -186,7 +190,7 @@ t:
   key_n: "<tr><td>Ctrl+N</td><td>New image</td><td>File</td></tr>"
 #M
   key_m: "<tr><td>M</td><td>Mirror View</td><td>View</td></tr>"
-#about
+#Popup about
   l_buttonabout: "About Krita"
   l_titleabout: "Krita Keyboard Shortcuts"
   l_descabout: "Cover the most useful hotkeys for the Krita under Linux. All keys can be assigned individually: Settings / Configure shortcuts."
