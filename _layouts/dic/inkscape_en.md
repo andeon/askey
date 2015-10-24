@@ -1,5 +1,5 @@
 ---
-layout: main_Inkscape
+layout: main_inkscape
 t:
  en:
 #Tooltip Keys
