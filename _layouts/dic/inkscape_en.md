@@ -1,0 +1,150 @@
+---
+layout: main_Inkscape
+t:
+ en:
+#Tooltip Keys
+#  tooltip_esc: ""
+#  tooltip_f1: ""
+#  tooltip_f2: ""
+#  tooltip_f3: ""
+#  tooltip_f4: ""
+#  tooltip_f5: ""
+#  tooltip_f6: ""
+#  tooltip_f7: ""
+#  tooltip_f8: ""
+#  tooltip_f9: ""
+#  tooltip_f10: ""
+#  tooltip_f11: "Fullscreen"
+#  tooltip_f12: ""
+#  tooltip_insert: ""
+#  tooltip_printscr: ""
+  tooltip_delete: "Clear"
+#  tooltip_singlequote: "" 
+#  tooltip_tab: ""
+#  tooltip_1: ""
+#  tooltip_2: ""
+#  tooltip_3: ""
+#  tooltip_4: ""
+#  tooltip_5: ""
+#  tooltip_6: ""
+#  tooltip_7: ""
+#  tooltip_8: ""
+#  tooltip_9: ""
+#  tooltip_0: ""
+#  tooltip_minus: ""
+#  tooltip_plus: ""
+#  tooltip_backspace: ""
+  tooltip_home: "Layer Solo"
+  tooltip_pgup: "Above"
+  tooltip_pgdn: "Below"
+#  tooltip_end: ""
+#  tooltip_obracket: ""
+#  tooltip_cbracket: ""
+#  tooltip_comma: ""
+#  tooltip_dot: ""
+#  tooltip_colon: "" 
+#  tooltip_space: ""
+#  tooltip_slash: "" 
+
+#Tooltips_Key_QWERTY
+#  tooltip_q: ""
+#  tooltip_w: ""
+  tooltip_e: "Ellipse"
+  tooltip_r: "Rectangle"
+  tooltip_t: "Text"
+#  tooltip_y: ""
+#  tooltip_u: ""
+  tooltip_i: "Spiral"
+  tooltip_o: "Connectors"
+  tooltip_p: "Pencil"
+
+#Tooltip_Key_ASDFG
+#  tooltip_a: ""
+  tooltip_s: "Selector"
+  tooltip_d: "Dropper"
+#  tooltip_f: ""
+  tooltip_g: "Gradient"
+  tooltip_h: "Flip horizontally"
+#  tooltip_j: ""
+#  tooltip_k: ""
+#  tooltip_l: ""
+
+#Tooltip_Key_ZXCVB
+#  tooltip_z: ""
+#  tooltip_x: ""
+  tooltip_c: "Calligraphy"
+  tooltip_v: "Flip vertically"
+  tooltip_b: "Bezier curves"
+  tooltip_n: "Node tool"
+#  tooltip_m: ""
+
+#Popup Table Key explanation fn
+#F11
+  key_f11: "<tr><td>F11</td><td>Fullscreen</td><td>View</td></tr>"
+#Delete
+  key_delete: "<tr><td>Delete</td><td>Delete</td><td>Edit</td></tr>"
+#Home
+  key_home: "<tr><td>Shift+Ctrl+Home</td><td>Layer to Top</td><td>Layer</td></tr>"
+#PgUp
+  key_pgup: "<tr><td>Shift+Ctrl+PgUp</td><td>Raise Layer</td><td>Layer</td></tr>"
+#PgDn
+  key_pgdn: "<tr><td>PgDn</td><td>Lower Layer</td><td>Layer</td></tr>"
+#End
+  key_pgdn: "<tr><td>PgDn</td><td>Layer to Bottom</td><td>Layer</td></tr>"
+
+
+#Popup Table Key explanation QWERTY
+#Q
+  key_q: "<tr><td>Ctrl+Q</td><td>Quit</td><td>File</td></tr>"
+#E
+  key_e: "<tr><td>E</td><td>Ellipse</td><td>Tools</td></tr>"
+#R
+  key_r: "<tr><td>R</td><td>Rectangle</td><td>Tools</td></tr>"
+#I
+  key_i: "<tr><td>I</td><td>Spiral</td><td>Tools</td></tr>"
+#O
+  key_o: "<tr><td>O</td><td>Connectors</td><td>Tools</td></tr>
+   <tr><td>Ctrl+O</td><td>Open document</td><td>File</td></tr>"
+#P
+  key_p: "<tr><td>P</td><td>Pencil</td><td>Tools</td></tr>
+   <tr><td>Ctrl+P</td><td>Print</td><td>File</td></tr>"
+
+#Popup Table Key explanation ASDFG
+
+#S
+  key_s: "<tr><td>S</td><td>Selector</td><td>Tools</td></tr>
+   <tr><td>Crtl+S</td><td>Save</td><td>File</td></tr>
+   <tr><td>Shift+Ctrl+S</td><td>Save as</td><td>File</td></tr>"
+#D
+  key_d: "<tr><td>D</td><td>Dropper</td><td>Tools</td></tr>"
+#F
+  key_f: "<tr><td>Shift+Ctrl+F</td><td>Fill and Stroke tab</td><td>Object</td></tr>"
+#H
+  key_h: "<tr><td>H</td><td>Flip horizontally</td><td>Object</td></tr>"
+
+#Popup Table Key explanation ZXCVB
+
+#Z
+  key_z: "<tr><td>Ctrl+Z</td><td>Undo</td><td>Edit</td></tr>"
+#C
+  key_c: "<tr><td>C</td><td>Calligraphy</td><td>Tools</td></tr>
+   <tr><td>Ctrl+C</td><td>Copy</td><td>Edit</td></tr>"
+#V
+  key_v: "<tr><td>V</td><td>Flip vertically</td><td>Object</td></tr>
+   <tr><td>Ctrl+V</td><td>Paste</td><td>Edit</td></tr>"
+#B
+  key_b: "<tr><td>B</td><td>Bezier curves</td><td>Tools</td></tr>
+   <tr><td>Shift+Alt+B</td><td>Trace Bitmap</td><td>Path</td></tr>
+   <tr><td>Ctrl+B</td><td>Hide / View scrollbars</td><td>View</td></tr>"
+#N
+  key_n: "<tr><td>N</td><td>Node tool</td><td>Tools</td></tr>
+   <tr><td>Ctrl+N</td><td>New</td><td>File</td></tr>"
+
+#Popup about
+  l_buttonabout: "About Inkscape"
+  l_titleabout: "Inkscape Keyboard Shortcuts"
+  l_descabout: "Cover the most useful hotkeys for the Inkscape under Linux. All keys can be assigned individually: Edit / Preferences / Interface / Keyboard Shortcuts."
+  l_linkabout: "Visit Inkscape's official website!"
+---
+
+
