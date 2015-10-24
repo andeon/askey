@@ -18,7 +18,7 @@ t:
 #  tooltip_f12: ""
 #  tooltip_insert: ""
 #  tooltip_printscr: ""
-  tooltip_delete: "Clear"
+  tooltip_delete: "Delete"
 #  tooltip_singlequote: "" 
 #  tooltip_tab: ""
 #  tooltip_1: ""
