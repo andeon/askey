@@ -14,7 +14,7 @@ t:
 #  tooltip_f8: ""
 #  tooltip_f9: ""
 #  tooltip_f10: ""
-#  tooltip_f11: "Fullscreen"
+  tooltip_f11: "Fullscreen"
 #  tooltip_f12: ""
 #  tooltip_insert: ""
 #  tooltip_printscr: ""
