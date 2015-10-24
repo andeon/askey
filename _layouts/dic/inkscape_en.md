@@ -34,9 +34,9 @@ t:
 #  tooltip_minus: ""
 #  tooltip_plus: ""
 #  tooltip_backspace: ""
-  tooltip_home: "Layer Solo"
-  tooltip_pgup: "Above"
-  tooltip_pgdn: "Below"
+#  tooltip_home: ""
+#  tooltip_pgup: ""
+#  tooltip_pgdn: ""
 #  tooltip_end: ""
 #  tooltip_obracket: ""
 #  tooltip_cbracket: ""
@@ -88,9 +88,9 @@ t:
 #PgUp
   key_pgup: "<tr><td>Shift+Ctrl+PgUp</td><td>Raise Layer</td><td>Layer</td></tr>"
 #PgDn
-  key_pgdn: "<tr><td>PgDn</td><td>Lower Layer</td><td>Layer</td></tr>"
+  key_pgdn: "<tr><td>Shift+Ctrl+PgDn</td><td>Lower Layer</td><td>Layer</td></tr>"
 #End
-  key_pgdn: "<tr><td>PgDn</td><td>Layer to Bottom</td><td>Layer</td></tr>"
+  key_pgend: "<tr><td>End</td><td>Layer to Bottom</td><td>Layer</td></tr>"
 
 
 #Popup Table Key explanation QWERTY
