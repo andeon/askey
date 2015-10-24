@@ -90,7 +90,7 @@ t:
 #PgDn
   key_pgdn: "<tr><td>Shift+Ctrl+PgDn</td><td>Lower Layer</td><td>Layer</td></tr>"
 #End
-  key_pgend: "<tr><td>End</td><td>Layer to Bottom</td><td>Layer</td></tr>"
+  key_end: "<tr><td>End</td><td>Layer to Bottom</td><td>Layer</td></tr>"
 
 
 #Popup Table Key explanation QWERTY
