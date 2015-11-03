@@ -124,33 +124,26 @@ t:
   key_dot: "<tr><td>Ctrl+.</td><td>Move forward one frame </td><td>View</td></tr>
    <tr><td>Ctrl+></td><td> Move forward one second</td><td>View</td></tr>"
 
-#Popup Table Key Explanation QWERTY
+#Popup Table Key explanation QWERTY
 #Q
-  key_q: "<tr><td>Q</td><td>Multibrush Tool</td><td>Toolbox</td></tr>"
+  key_q: "<tr><td>Ctrl+Q</td><td>Quit Synfig</td><td>Edit</td></tr>
+   <tr><td>Alt+Q</td><td>Star Tool</td><td>Toolbox</td></tr>"
 #W
-  key_w: "<tr><td>W</td><td>Wrap Around Mode</td><td>View</td></tr>"
+  key_w: "<tr><td>Ctrl+W</td><td>Close Document</td><td>File</td></tr>
+   <tr><td>Alt+W</td><td>Width Tool</td><td>Toolbox</td></tr>"
 #E
-  key_e: "<tr><td>E</td><td>Set eraser mode</td><td>Toolbar</td></tr>"
+  key_e: "<tr><td>Alt+E</td><td>Eyedrop Tool</td><td>Toolbox</td></tr>"
 #R
-  key_r: "<tr><td>R</td><td>Pick layer</td><td>Layer</td></tr>"
-#T
-  key_t: "<tr><td>T</td><td>Move Tool</td><td>Toolbox</td></tr>
-   <tr><td>Ctrl+T</td><td>Transform Tool</td><td>Toolbox</td></tr>"
-#U
-  key_u: "<tr><td>U</td><td>Show common colors</td><td>View</td></tr>
-   <tr><td>Ctrl+Shift+U</td><td>Desaturate</td><td>Filter</td></tr>
-   <tr><td>Shift+U</td><td>HSV Adjustment</td><td>Filter</td></tr>"
+  key_r: "<tr><td>Ctrl+R</td><td>Redo</td><td>Edit</td></tr>
+   <tr><td>Ctrl+R</td><td>Rectangle Tool</td><td>Toolbox</td></tr>"
 #I
-  key_i: "<tr><td>I</td><td>Decrease Opacity</td><td>Brushes</td></tr>
-   <tr><td>Ctrl+I</td><td>Invert</td><td>filter</td></tr>
-   <tr><td>Shift+I</td><td>Color Selector</td><td>View</td></tr>
-   <tr><td>Ctrl+Alt+I</td><td>Scale Image To New Size</td><td>Image</td></tr>"
+  key_i: "<tr><td>Ctrl+I</td><td>Import image</td><td>File</td></tr>"
 #O
-  key_o: "<tr><td>O</td><td>Increase Opacity</td><td>Brushes</td></tr>
-   <tr><td>Ctrl+O</td><td>Open</td><td>File</td></tr>"
+  key_o: "<tr><td>Ctrl+O</td><td>Open</td><td>File</td></tr>
+   <tr><td>Alt+O</td><td>Show Onion Skin</td><td>View</td></tr>"
 #P
-  key_p: "<tr><td>P</td><td>Color Selector Tool</td><td>Toolbox</td></tr>
-   <tr><td>Ctrl+P</td><td>Print</td><td>File</td></tr>"
+  key_p: "<tr><td>Ctrl+P</td><td>Play</td><td>View</td></tr>
+   <tr><td>Alt+P</td><td>Polygon Tool</td><td>Toolbox</td></tr>"
 
 #Popup Table Key explanation ASDFG
 #A
