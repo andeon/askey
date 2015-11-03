@@ -147,30 +147,21 @@ t:
 
 #Popup Table Key explanation ASDFG
 #A
-  key_a: "<tr><td>Ctrl+A</td><td>Select All</td><td>Select</td></tr>	
-   <tr><td>Shift+Ctrl+A</td><td>Deselect All</td><td>Select</td></tr>"
+  key_a: "<tr><td>Shift+Ctrl+A</td><td>Select all Layers</td><td>Edit</td></tr>
+   <tr><td>Ctrl+A</td><td>Select all Handles</td><td>Edit</td></tr>
+   <tr><td>Alt+A</td><td>Transform Tool</td><td>Toolbox</td></tr>"
 #S
-  key_s: "<tr><td>Ctrl+S</td><td>Save</td><td>File</td></tr>
-   <tr><td>Shift+Ctrl+S</td><td>Save as</td><td>File</td></tr>"
+  key_s: "<tr><td>Crtl+S</td><td>Save</td><td>File</td></tr>
+   <tr><td>Alt+S</td><td>Scale Tool</td><td>Toolbox</td></tr>"
 #D
-  key_d: "<tr><td>D</td><td>Reset Foreground and Background Color</td><td>Toolbox</td></tr>
-   <tr><td>Shift+Ctrl+D</td><td>Reselect</td><td>Select</td></tr>"
-#F
-  key_f: "<tr><td>Shift+Ctrl+F</td><td>Fullscreen Mode</td><td>View</td></tr>"
+  key_d: "<tr><td>Ctrl+D</td><td>Unselect all Handles</td><td>Edit</td></tr>
+   <tr><td>Shift+Ctrl+D</td><td>Unselect all layers</td><td>Edit</td></tr>"
 #G
-  key_g: "<tr><td>Ctrl+G</td><td>Gradient Tool</td><td>Toolbox</td></tr>"
-#H
-  key_h: "<tr><td>H</td><td>Show Color History</td><td>Toolbox</td></tr>"
-#J
-  key_j: "<tr><td>J</td><td>Elliptical Selection Tool</td><td>Toolbox</td></tr>
-   <tr><td>­Ctrl+J</td><td>Duplicate Layer or Mask</td><td>Layer</td></tr>
-   <tr><td>­Ctrl+Alt+J</td><td>Copy Selection to New Layer</td><td>Layer</td></tr>
-   <tr><td>Shift+­Ctrl+J</td><td>Cut Selection to New Layer</td><td>Layer</td></tr>"
+  key_g: "<tr><td>Alt+D</td><td>Gradient Tool</td><td>Toolbox</td></tr>"
 #K
-  key_k: "<tr><td>K</td><td>Make brush color darker</td><td>Brushes</td></tr>"	
+  key_k: "<tr><td>Alt+K</td><td>Sketch Tool</td><td>Toolbox</td></tr>"	
 #L
-  key_l: "<tr><td>L</td><td>Make brush color lighter</td><td>Brushes</td></tr>	
-   <tr><td>Ctrl+L</td><td>Levels</td><td>Filter</td></tr>"
+  key_l: "<tr><td>Ctrl+L</td><td>Snap to grid</td><td>View</td></tr>"
 
 #Popup Table Key explanation ZXCVB
 #Z
