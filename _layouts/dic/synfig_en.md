@@ -112,7 +112,7 @@ t:
 #End
   key_end: "<tr><td>End</td><td>Jump to end of timeline</td><td>View</td></tr>"
 #Backspace
-  key_backspace: "<tr><td>Backspace</td><td>Select the immediate parent Group Layer (if any) of the current selected layer.</td><td>Edit</td></tr>"
+  key_backspace: "<tr><td>Backspace</td><td>Select the immediate parent Group Layer</td><td>Edit</td></tr>"
 #Open bracket
   key_obracket: "<tr><td>Ctrl+[</td><td>Move backward to previous Keyframe</td><td>View</td></tr>"
 #Close bracket
@@ -155,8 +155,7 @@ t:
    <tr><td>Alt+S</td><td>Scale Tool</td><td>Toolbox</td></tr>"
 #D
   key_d: "<tr><td>Ctrl+D</td><td>Unselect all Handles</td><td>Edit</td></tr>
-   <tr><td>Shift+Ctrl+D</td><td>Unselect all layers</td><td>Edit</td></tr>
-   Fill Tool"
+   <tr><td>Shift+Ctrl+D</td><td>Unselect all layers</td><td>Edit</td></tr>"
 #G
   key_g: "<tr><td>Alt+D</td><td>Gradient Tool</td><td>Toolbox</td></tr>"
 #K
