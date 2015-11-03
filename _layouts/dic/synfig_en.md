@@ -164,32 +164,31 @@ t:
   key_l: "<tr><td>Ctrl+L</td><td>Snap to grid</td><td>View</td></tr>"
 
 #Popup Table Key explanation ZXCVB
-
 #Z
   key_z: "<tr><td>Ctrl+Z</td><td>Undo</td><td>File</td></tr>
-   <tr><td>Shif+Ctrl+Z</td><td>Best Fit</td><td>View</td></tr>
-   <tr><td>Alt+Z</td><td>Zoom Tool</td><td>Toolbox</td></tr>"
+   <tr><td>Shift+Ctrl+Z</td><td>Redo</td><td>File</td></tr>"
 #X
-  key_x: "<tr><td>Ctrl+X</td><td>Cut</td><td>File</td></tr>
-   <tr><td>Alt+X</td><td>Text Tool</td><td>Toolbox</td></tr>""
+  key_x: "<tr><td>X</td><td>Swap fg/bg Colors</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+X</td><td>Cut</td><td>Edit</td></tr>"
 #C
-  key_c: "<tr><td>Ctrl+C</td><td>Copy</td><td>File</td></tr>
-   <tr><td>Alt+C</td><td>Circle Tool</td><td>Toolbox</td></tr>"
+  key_c: "<tr><td>C</td><td>Crop Tool</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+C</td><td>Copy</td><td>Edit</td></tr>
+   <tr><td>Shift+Ctrl+C</td><td>Copy merged</td><td>Edit</td></tr>"
 #V
-  key_v: "<tr><td>Ctrl+V</td><td>Paste</td><td>Layer</td></tr>
-   <tr><td>Alt+V</td><td>Smooth Move Tool</td><td>Toolbox</td></tr>"
+  key_v: "<tr><td>Ctrl+V</td><td>Paste</td><td>Edit</td></tr>"
 #B
-  key_b: "<tr><td>Alt+B</td><td>Spline Tool</td><td>Toolbox</td></tr>"
+  key_b: "<tr><td>B</td><td>Freehand Brush Tool</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+B</td><td>Color Balance</td><td>Filter</td></tr>"
 #N
-  key_n: "<tr><td>Ctrl+N</td><td>New</td><td>File</td></tr>"
+  key_n: "<tr><td>Ctrl+N</td><td>New image</td><td>File</td></tr>"
 #M
-  key_m: "<tr><td>Alt+M</td><td>Mirror Tool</td><td>Toolbox</td></tr>"
+  key_m: "<tr><td>M</td><td>Mirror View</td><td>View</td></tr>"
 
 #Popup about
-  l_buttonabout: "About Synfig"
-  l_titleabout: "Synfig Keyboard Shortcuts"
-  l_descabout: "Cover the most useful hotkeys for the Synfig under Linux."
-  l_linkabout: "Visit Synfig's official website!"
+  l_buttonabout: "About Krita"
+  l_titleabout: "Krita Keyboard Shortcuts"
+  l_descabout: "Cover the most useful hotkeys for the Krita under Linux. All keys can be assigned individually: Settings / Configure shortcuts."
+  l_linkabout: "Visit Krita's official website!"
 ---
 
 
