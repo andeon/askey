@@ -78,46 +78,51 @@ t:
 #  tooltip_n: ""
 #  tooltip_m: ""
 
-#Popup Table Key Explanation fn etc
+#Popup Table Key explanation fn
 #Esc
-  key_esc: "<tr><td>Esc</td><td>Close Windows</td><td>Windows</td></tr>"
-#F1
-  key_f1: "<tr><td>F1</td><td>Krita Handbook</td><td>Help</td></tr>"
-#Insert
-  key_insert: "<tr><td>Insert</td><td>Insert layer</td><td>Layer</td></tr>"
+  key_esc: "<tr><td>Esc</td><td>Deselect the last Tool and select Transform Tool</td><td>Tool</td></tr>"
+#F8
+  key_f8: "<tr><td>F8</td><td>Canvas Properties</td><td>Canvas</td></tr>"
+#F9
+  key_f9: "<tr><td>F9</td><td>Render</td><td>File</td></tr>"
+#F11
+  key_f11: "<tr><td>F11</td><td>Preview</td><td>File</td></tr>"
+#F12
+  key_f12: "<tr><td>F12</td><td>Canvas Options</td><td>Canvas</td></tr>"
 #Delete
-  key_delete: "<tr><td>Delete</td><td>Clear</td><td>Edit</td></tr>"
-#1
-  key_1: "<tr><td>1</td><td>Zoom 1:1</td><td>View</td></tr>"
-#4
-  key_4: "<tr><td>4</td><td>Rotate Left</td><td>Canvas</td></tr>"
-#5
-  key_5: "<tr><td>5</td><td>Rotate Reset</td><td>Canvas</td></tr>"
-#6
-  key_6: "<tr><td>6</td><td>Rotate Right</td><td>Canvas</td></tr>"
+  key_delete: "<tr><td>Ctrl+Delete</td><td>Delete the currently selected Canvas</td><td>Edit/Layer</td></tr>"
+#9
+  key_9: "<tr><td>Ctrl+(</td><td>Decrease workarea pixel size</td><td>View</td></tr>
+   <tr><td>Ctrl+Alt+(</td><td>Decrease Amount of selected layer</td><td>View</td></tr>"
+#0
+  key_0: "<tr><td>Ctrl+)</td><td>Increase workarea pixel size</td><td>View</td></tr>
+   <tr><td>Ctrl+Alt+)</td><td>Increase Amount of selected layer</td><td>View</td></tr>"
 #-
-  key_minus: "<tr><td>-</td><td>Zoom out</td><td>View</td></tr>"
+  key_minus: "<tr><td>Ctrl+-</td><td>Zoom out of Canvas (spacial zoom)</td><td>View</td></tr>
+   <tr><td>Ctrl+_</td><td>Zoom out of timeline (temporal zoom)</td><td>View</td></tr>"
 #+
-  key_plus: "<tr><td>=</td><td>Zoom in</td><td>View</td></tr>"
-#Backspace
-  key_back: "<tr><td>Backspace</td><td>Fill with Background Color</td><td>Edit</td></tr>
-   <tr><td>Shift+Backspace</td><td>Fill with Forefround Color</td><td>Edit</td></tr>"
-#Open bracket
-  key_obracket: "<tr><td>[</td><td>Decrease Brush Size</td><td>Brushes</td></tr>"
-#Close bracket
-  key_cbracket: "<tr><td>]</td><td>Increase Brush Size</td><td>Brushes</td></tr>"
-#Tab
-  key_tab: "<tr><td>Tab</td><td>Show Canvas Only</td><td>View</td></tr>"
+  key_plus: "<tr><td>Ctrl+=</td><td>Zoom in on Canvas (spacial zoom)</td><td>View</td></tr>
+   <tr><td>Ctrl++</td><td>Zoom in on timeline (temporal zoom)</td><td>View</td></tr>"
+#Home
+  key_home: "<tr><td>Home</td><td>Jump to beginning of timeline</td><td>View</td></tr>"
 #PgUp
-  key_pgup: "<tr><td>PgUp</td><td>Activate Next Layer</td><td>Layer</td></tr>"
+  key_pgup: "<tr><td>Shift+PgUp</td><td>Raise currently selected layers</td><td>View</td></tr>"
 #PgDn
-  key_pgdn: "<tr><td>PgDn</td><td>Activate Previous Layer</td><td>Layer</td></tr>"
+  key_pgdn: "<tr><td>Shift+PgDn</td><td>Lower currently selected layers</td><td>View</td></tr>"
+#End
+  key_end: "<tr><td>End</td><td>Jump to end of timeline</td><td>View</td></tr>"
+#Backspace
+  key_backspace: "<tr><td>Backspace</td><td>Select the immediate parent Group Layer</td><td>Edit</td></tr>"
+#Open bracket
+  key_obracket: "<tr><td>Ctrl+[</td><td>Move backward to previous Keyframe</td><td>View</td></tr>"
+#Close bracket
+  key_cbracket: "<tr><td>Ctrl+]</td><td>Move forward to next Keyframe</td><td>Brushes</td></tr>"
 #,
-  key_comma: "<tr><td>Ctrl+,</td><td>Previous Favorite Preset</td><td>Brushes</td></tr>"
+  key_comma: "<tr><td>Ctrl+,</td><td>Move backward one frame</td><td>View</td></tr>
+   <tr><td>Ctrl+<</td><td>Move backward one second</td><td>View</td></tr>"
 #.
-  key_dot: "<tr><td>Ctrl+.</td><td>Next Favorite Preset</td><td>Brushes</td></tr>"
-#/
-  key_slash: "<tr><td>/</td><td>Switch to Previous Preset</td><td>Brushes</td></tr>"
+  key_dot: "<tr><td>Ctrl+.</td><td>Move forward one frame </td><td>View</td></tr>
+   <tr><td>Ctrl+></td><td> Move forward one second</td><td>View</td></tr>"
 
 #Popup Table Key Explanation QWERTY
 #Q
