@@ -82,7 +82,12 @@ h1 {
   margin: 50px 0;
 }
 
-
+.content {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
 
 small {
 	display: block;
