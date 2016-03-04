@@ -189,7 +189,13 @@ t:
 #N
   key_n: "<tr><td>Ctrl+N</td><td>New image</td><td>File</td></tr>"
 #M
-  key_m: "<tr><td>M</td><td>Mirror View</td><td>View</td></tr>"
+  key_m: "
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| M		| Mirror View   | View  |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+"
 #Popup about
   l_buttonabout: "About Test"
   l_titleabout: "Krita Keyboard Shortcuts"
