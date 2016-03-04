@@ -189,7 +189,7 @@ t:
 #N
   key_n: "<tr><td>Ctrl+N</td><td>New image</td><td>File</td></tr>"
 #M
-  key_m: "| Tables        | Are           | Cool  |
+  key_m: "| WORK        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | M		| Mirror View   | View  |
 | col 2 is      | centered      |   $12 |
