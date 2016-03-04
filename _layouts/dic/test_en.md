@@ -1,5 +1,5 @@
 ---
-layout: main_krita
+layout: main_test
 t:
  en:
 #Tooltip_Key_fn_etc
@@ -191,7 +191,7 @@ t:
 #M
   key_m: "<tr><td>M</td><td>Mirror View</td><td>View</td></tr>"
 #Popup about
-  l_buttonabout: "About Krita"
+  l_buttonabout: "About Test"
   l_titleabout: "Krita Keyboard Shortcuts"
   l_descabout: "Cover the most useful hotkeys for the Krita under Linux. All keys can be assigned individually: Settings / Configure shortcuts."
   l_linkabout: "Visit Krita's official website!"
