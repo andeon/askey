@@ -189,7 +189,9 @@ t:
 #N
   key_n: "<tr><td>Ctrl+N</td><td>New image</td><td>File</td></tr>"
 #M
-  key_m: "| WORK        | Are           | Cool  |"
+  key_m: "| WORK        | Are           | Cool  |
+   | :---         |     :---:      |          ---: |
+   | git status   | git status     | git status    |"
 #Popup about
   l_buttonabout: "About Test"
   l_titleabout: "Krita Keyboard Shortcuts"
