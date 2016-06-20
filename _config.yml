@@ -26,7 +26,6 @@ t:
   pt: "Atalhos de teclado"
 
 # Build settings
-kramdown:
-  input: GFM
+markdown: kramdown
 permalink: pretty
 
