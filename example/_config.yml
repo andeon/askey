@@ -1,6 +1,6 @@
 # Site meta data
 email: example@example.org
-url: "http://example.org"
+url: "http://andeon.github.io"
 
 # not used by plugin but by liquid template
 languages: ['en', 'de']
