@@ -4,6 +4,7 @@ email: your-email@domain.com
 description: "Shortcut keys of Open Source graphic programs"
 baseurl: "/askey"
 url: "http://andeon.github.io"
+future: true
 
 front_img: yes
 front_img_path: "http://andeon.github.io/askey/images/wood.jpg"
