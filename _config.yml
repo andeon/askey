@@ -26,6 +26,6 @@ t:
   pt: "Atalhos de teclado"
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
 
