@@ -1,0 +1,22 @@
+---
+layout: page
+languages:
+- en
+- de
+subset: index
+navigation: false
+---
+<h1>{% t 'lead' %}</h1>
+<p><em>{% t 'slogan' %}</em></p>
+<p>{% t 'description' %}</p>
+<blockquote>{% tinclude lorem.txt %}</blockquote>
+<h2>{% t 'custom_loader' %}</h2>
+<p>{% t 'custom_loader_test' %}: {% t 'custom_test' %}</p>
+<h2>{% t 'posts' %}</h2>
+<ul>
+{% for post in site.posts %}
+  {% if post.language == page.language %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>

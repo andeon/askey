@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head lang="{{ page.language }}">
+    <meta charset="utf-8">
+    <meta name="keywords" content="{% t 'site.keywords' %}">
+    <meta name="description" content="{% t 'site.description' %}">
+    <title>{% if page.title %}{{ page.title }}{% else %}{% t 'title' %}{% endif %} | {% t 'site.title' %}</title>
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    {% for language in page.languages %}
+      {% if page.language != language %}
+        <link rel="alternate" hreflang="{{ language }}" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace_first: page.language, language }}" />
+      {% endif %}
+    {% endfor %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/language-redirect.js" type="text/javascript"></script>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

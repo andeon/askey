@@ -1,0 +1,16 @@
+# Site meta data
+email: example@example.org
+url: "http://example.org"
+
+# not used by plugin but by liquid template
+languages: ['en', 'de']
+
+# Build settings
+markdown: kramdown
+
+gems:
+- jekyll-sitemap
+- jekyll-language-plugin
+
+language_data: data.lang.%%
+language_includes_dir: _i18n
