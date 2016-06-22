@@ -1,0 +1,220 @@
+---
+layout: main_gimp
+t:
+ en:
+#Tooltip_Key_fn_etc
+  tooltip_esc: "Close Dialogs"
+  tooltip_f1: "Help"
+#  tooltip_f2: ""
+#  tooltip_f3: ""
+#  tooltip_f4: ""
+#  tooltip_f5: ""
+#  tooltip_f6: ""
+#  tooltip_f7: ""
+#  tooltip_f8: ""
+#  tooltip_f9: ""
+  tooltip_f10: "Main Menu"
+  tooltip_f11: "Fullscreen"
+#  tooltip_f12: ""
+#  tooltip_insert: ""
+#  tooltip_printscr: ""
+  tooltip_delete: "Clear"
+#  tooltip_singlequote: "" 
+  tooltip_tab: "Hide Docks"
+  tooltip_1: "Zoom 1:1 (100%)"
+#  tooltip_2: ""
+#  tooltip_3: ""
+#  tooltip_4: ""
+#  tooltip_5: ""
+#  tooltip_6: ""
+#  tooltip_7: ""
+#  tooltip_8: ""
+#  tooltip_9: ""
+#  tooltip_0: ""
+  tooltip_minus: "Zoom Out"
+  tooltip_plus: "Zoom In"
+#  tooltip_backspace: ""
+  tooltip_home: "Select Top Layer"
+  tooltip_pgup: "Select Previous Layer"
+  tooltip_pgdn: "Select Next Layer"
+  tooltip_end: "Select Bottom Layer"
+#  tooltip_obracket: ""
+#  tooltip_cbracket: ""
+#  tooltip_comma: ""
+#  tooltip_dot: ""
+#  tooltip_colon: "" 
+#  tooltip_space: ""
+#  tooltip_slash: "" 
+
+
+#Tooltips_Key_QWERTY
+  tooltip_q: "Align"
+#  tooltip_w: ""
+  tooltip_e: "Elipse Select"
+  tooltip_r: "Rectangle Select"
+  tooltip_t: "Text"
+#  tooltip_y: ""
+  tooltip_u: "Fuzzy Select"
+  tooltip_i: "Scissors"
+  tooltip_o: "Color Picker"
+  tooltip_p: "Paintbrush"
+#Tooltip_Key_ASDFG
+  tooltip_a: "Airbrush "
+  tooltip_s: "Smudge"
+  tooltip_d: "Default Colors"
+  tooltip_f: "Free Select"
+#  tooltip_g: ""
+  tooltip_h: "Heal"
+#  tooltip_j: ""
+  tooltip_k: "Ink"
+  tooltip_l: "Blend"
+#Tooltip_Key_ZXCVB
+  tooltip_z: "Zoom"
+  tooltip_x: "Swap Colors"
+  tooltip_c: "Clone"
+#  tooltip_v: ""
+  tooltip_b: "Paths"
+  tooltip_n: "Pencil"
+  tooltip_m: "Move"
+
+#Popup Table Key explanation fn_etc
+#Esc
+  key_esc: "<tr><td>Esc</td><td>Close Dialogs</td><td>Dialogs</td></tr>"
+#F1
+  key_f1: "<tr><td>F1</td><td>Help</td><td>Help</td></tr>
+   <tr><td>Shift+F1</td><td>Context Help</td><td>Help</td></tr>"
+#F10
+  key_f10: "<tr><td>F10</td><td>Main Menu</td><td>File</td></tr>
+   <tr><td>Shift+F10</td><td>Drop-down Menu</td><td>Dialogs</td></tr>"
+#F11
+  key_f11: "<tr><td>F11</td><td>Fullscreen</td><td>View</td></tr>"
+#Delete
+  key_delete: "<tr><td>Delete</td><td>Clear</td><td>Editar</td></tr>"
+#1
+  key_01: "<tr><td>1</td><td>Zoom 1:1</td><td>View</td></tr>"
+#-
+  key_minus: "<tr><td>-</td><td>Zoom out</td><td>View</td></tr>"
+#+
+  key_plus: "<tr><td>+</td><td>Zoom in</td><td>View</td></tr>"
+#Tab
+  key_tab: "<tr><td>Tab</td><td>Hide Docks</td><td>Windows</td></tr>"
+#Home
+  key_home: "<tr><td>Home</td><td>Select Top Layer</td><td>Layer</td></tr>"
+#PgUp
+  key_pgup: "<tr><td>PgUp</td><td>Select Previous Layer</td><td>Layer</td></tr>
+   <tr><td>Ctrl+PgUp</td><td>Select previous tab</td><td>Dialogs</td></tr>"
+#PgDn
+  key_pgdn: "<tr><td>PgDn</td><td>Select Next Layer</td><td>Layer</td></tr>	
+   <tr><td>Ctrl+PgDn</td><td>Select next tab</td><td>Dialogs</td></tr>"
+#End
+  key_end: "<tr><td>End</td><td>Select Bottom Layer</td><td>Layer</td></tr>"
+#,
+  key_comma: "<tr><td>Ctrl+,</td><td>Fill with foreground color</td><td>Edit</td></tr>"
+#.
+  key_dot: "<tr><td>Ctrl+.</td><td>Fill with background color</td><td>Edit</td></tr>"
+#;
+  key_semicolon: "<tr><td>Ctrl+;</td><td>Fill with pattern</td><td>Edit</td></tr>"
+
+#Popup Table Key explanation QWERTY
+#Q
+  key_q: "<tr><td>Q</td><td>Align</td><td>Toolbox</td></tr>
+   <tr><td>Shift+Q</td><td>Toggle quickmask</td><td>Select</td></tr>	
+   <tr><td>Ctrl+Q</td><td>Quit</td><td>File</td></tr>"
+#W
+  key_w: "<tr><td>Ctrl+W</td><td>Close View</td><td>File</td></tr>"
+#E
+  key_e: "<tr><td>E</td><td>Ellipse Select</td><td>Toolbox</td></tr>
+   <tr><td>Shift+E</td><td>Eraser</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+E</td><td>Export</td><td>File</td></tr>
+   <tr><td>Shift+Ctrl+E </td><td>Export as</td><td>File</td></tr>"
+#R
+  key_r: "<tr><td>R</td><td>Rectangle Select</td><td>Toolbox</td></tr>
+   <tr><td>Shift+Ctrl+R</td><td>Toggle rulers</td><td>View</td></tr>"
+#T
+  key_t: "<tr><td>T</td><td>Text</td><td>Toolbox</td></tr>
+   <tr><td>Shift+T</td><td>Scale</td><td>Toolbox</td></tr>
+   <tr><td>Shift+Ctrl+T</td><td>Toggle guides</td><td>View</td></tr>"
+#Y
+  key_y: "<tr><td>Ctrl+Y</td><td>Rendo</td><td>Edit</td></tr>"
+#U
+  key_u: "<tr><td>U</td><td>Fuzzy Select</td><td>Toolbox</td></tr>
+   <tr><td>Shift+U</td><td>Blur/Sharpen</td><td>Toolbox</td></tr>"
+#I
+  key_i: "<tr><td>I</td><td>Scissors</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+I</td><td>Invert selection</td><td>Select</td></tr>"
+#O
+  key_o: "<tr><td>O</td><td>Color Picker</td><td>Toolbox</td></tr>
+   <tr><td>Shift+O</td><td>Select by Color</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+O</td><td>Open</td><td>File</td></tr>
+   <tr><td>Ctrl+Alt+O</td><td>Open as Layer</td><td>File</td></tr>"
+#P
+  key_p: "<tr><td>P</td><td>Paintbrush</td><td>Toolbox</td></tr>
+   <tr><td>Shift+P</td><td>Perspective</td><td>Toolbox</td></tr>"
+
+#Popup Table Key explanation ASDFG
+#A
+  key_a: "<tr><td>A</td><td>Airbrush</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+A</td><td>All</td><td>Select</td></tr>	
+   <tr><td>Shift+Ctrl+A</td><td>None</td><td>Select</td></tr>"
+#S
+  key_s: "<tr><td>S</td><td>Smudge</td><td>Toolbox</td></tr>	
+   <tr><td>Shift+S</td><td>Shear</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+S</td><td>Save</td><td>File</td></tr>
+   <tr><td>Shift+Ctrl+S</td><td>Save as</td><td>File</td></tr>"
+#D
+  key_d: "<tr><td>D</td><td>Free Select</td><td>Toolbox</td></tr>
+   <tr><td>Shift+D</td><td>Dodge / Burn</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+D</td><td>Duplicate</td><td>Image</td></tr>"
+
+#F
+  key_f: "<tr><td>F</td><td>Free Select</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+F</td><td>Repeat last plug-in</td><td>Plug-ins</td></tr>	
+   <tr><td>Shift+Ctrl+F</td><td>Re-show last plug-in</td><td>Plug-ins</td></tr>"
+#G
+  key_g: "<tr><td>Ctrl+G</td><td>Gradients</td><td>Dialogs</td></tr>"
+#H
+  key_h: "<tr><td>H</td><td>Heal</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+H</td><td>Anchor layer</td><td>Layer</td></tr>"
+#J
+  key_j: "<tr><td>Ctrl+J</td><td>Shrink wrap</td><td>View</td></tr>
+   <tr><td>Shift+­Ctrl+J</td><td>Fit image in window</td><td>View</td></tr>"
+#K
+  key_k: "<tr><td>K</td><td>Ink</td><td>Toolbox</td></tr>"	
+#L
+  key_l: "<tr><td>L</td><td>Blend</td><td>Toolbox</td></tr>	
+   <tr><td>Shift+Ctrl+L</td><td>Float selection</td><td>Selection</td></tr>	
+   <tr><td>Ctrl+L</td><td>Layers</td><td>Dialogs</td></tr>"
+
+#Popup Table Key explanation ZXCVB
+#Z
+  key_z: "<tr><td>Z</td><td>Zoom</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+Z</td><td>Undo</td><td>Edit</td></tr>"
+#X
+  key_x: "<tr><td>X</td><td>Swap Colors</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+X</td><td>Cut selection</td><td>Edit</td></tr>"
+#C
+  key_c: "<tr><td>C</td><td>clone</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+C</td><td>Copy selection</td><td>Edit</td></tr>
+   <tr><td>Shift+Ctrl+C</td><td>Copy visible</td><td>Edit</td></tr>"
+#V
+  key_v: "<tr><td>Shift+V</td><td>From Path</td><td>Select</td></tr>
+   <tr><td>Shift+Ctrl+V</td><td>Paste as new image</td><td>Edit</td></tr>
+   <tr><td>Ctrl+V</td><td>Paste</td><td>Edit</td></tr>"
+#B
+  key_b: "<tr><td>B</td><td>Paths</td><td>Toolbox</td></tr>
+   <tr><td>Shift+B</td><td>Bucket Fill</td><td>Toolbox</td></tr>"
+#N
+  key_n: "<tr><td>N</td><td>Pencil</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+N</td><td>New image</td><td>File</td></tr>"
+#M
+  key_m: "<tr><td>M</td><td>Move</td><td>Toolbox</td></tr>
+   <tr><td>Shift+M</td><td>Measure</td><td>Toolbox</td></tr>
+   <tr><td>Ctrl+M</td><td>Merge visible layers</td><td>Image</td></tr>"
+#Popup about
+  l_buttonabout: "About GIMP"
+  l_titleabout: "GIMP Keyboard Shortcuts"
+  l_descabout: "Cover the most useful hotkeys for the GIMP under Linux. All keys can be assigned individually: Edit / Preferences / interface / keyboard shortcuts"
+  l_linkabout: "Visit GIMP's official website!"
+---
+
+
