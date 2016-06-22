@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: main_test
 t:
  en:
 #Tooltip_Key_fn_etc
