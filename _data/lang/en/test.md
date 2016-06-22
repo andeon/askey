@@ -1,7 +1,5 @@
 ---
 layout: main_test
-t:
- en:
 #Tooltip_Key_fn_etc
   tooltip_esc: "Close Dialogs"
   tooltip_f1: "Help"
