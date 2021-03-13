@@ -3,10 +3,10 @@ title: ASKey - Keyboard Shortcuts
 email: your-email@domain.com
 description: "Shortcut keys of Open Source graphic programs"
 baseurl: "/askey"
-url: "http://andeon.github.io"
+url: "https://andeon.github.io"
 
 front_img: yes
-front_img_path: "http://andeon.github.io/askey/images/wood.jpg"
+front_img_path: "https://andeon.github.io/askey/images/wood.jpg"
 #front_img_path: "https://external.url/image.jpg"
 
 
