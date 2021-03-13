@@ -4,7 +4,7 @@
 
 Askey is a virtual keyboard hosted on github-pages, created to list the shortcut keys of open source graphic programs.
 
-[Visit Askey!](http://andeon.github.io/askey/)
+[Visit Askey!](https://andeon.github.io/askey/)
 
 Author & License
 -----------------
