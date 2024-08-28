@@ -1,6 +1,6 @@
 # Askey - Keyboard Shortcuts
 
-![Askey](https://github.com/andeon/askey/blob/master/screenshot.jpg)
+![Askey](https://github.com/user-attachments/assets/e56ebec6-2ae1-4e79-8796-5774227003db)
 
 Askey is a virtual keyboard hosted on github-pages, created to list the shortcut keys of open source graphic programs.
 
