@@ -4,8 +4,8 @@
 <!-- Keyboard !-->
 <div id="keyboard">
     	<ul class="cf">
-	       	<li><a href="#popup_esc" class="key c27 fn" data-tooltip="{{ layout.t[page.lang].tooltip_esc }}"><span>esc</span></a></li>
-        	<li><a href="#popup_f1" class="key c112 fn" data-tooltip="{{ layout.t[page.lang].tooltip_f1 }}"><span>F1</span></a></li>
+	       	<li><a href="#popup_esc" class="key c27 fn" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_esc }}"><span>esc</span></a></li>
+        	<li><a href="#popup_f1" class="key c112 fn" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_f1 }}"><span>F1</span></a></li>
         	<li><a href="#" class="nokey c113 fn"><span>F2</span></a></li>
         	<li><a href="#" class="nokey c114 fn"><span>F3</span></a></li>
         	<li><a href="#" class="nokey c115 fn"><span>F4</span></a></li>
@@ -14,94 +14,94 @@
         	<li><a href="#" class="nokey c118 fn"><span>F7</span></a></li>
         	<li><a href="#" class="nokey c119 fn"><span>F8</span></a></li>
         	<li><a href="#" class="nokey c120 fn"><span>F9</span></a></li>
-        	<li><a href="#popup_f10" class="key c121 fn" data-tooltip="{{ layout.t[page.lang].tooltip_f10 }}"><span>F10</span></a></li>
-        	<li><a href="#popup_f11" class="key c122 fn" data-tooltip="{{ layout.t[page.lang].tooltip_f11 }}"><span>F11</span></a></li>
+        	<li><a href="#" class="nokey c121 fn"><span>F10</span></a></li>
+        	<li><a href="#" class="nokey c122 fn"><span>F11</span></a></li>
         	<li><a href="#" class="nokey c123 fn"><span>F12</span></a></li>
         	<li><a href="#" class="nokey fn"><span>Scroll</span></a></li>
 		<li><a href="#" class="nokey c19 fn"><span>Pause</span></a></li>
-		<li><a href="#" class="nokey c18 fn"><span>Insert</span></a></li>
-		<li><a href="#popup_delete" class="key c46 fn" data-tooltip="{{ layout.t[page.lang].tooltip_delete }}"><span>Delete</span></a></li>
+		<li><a href="#popup_insert" class="key c18 fn" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_insert }}"><span>Insert</span></a></li>
+		<li><a href="#popup_delete" class="key c46 fn" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_delete }}"><span>Delete</span></a></li>
         </ul>
 		
     	<ul class="cf" id="numbers">
 	    	<li><a href="#" class="nokey c192"><b>~</b><span>`</span></a></li>
-	    	<li><a href="#popup_1" class="key c49" data-tooltip="{{ layout.t[page.lang].tooltip_1}}"><b>!</b><span>1</span></a></li>
+	    	<li><a href="#popup_1" class="key c49" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_1}}"><b>!</b><span>1</span></a></li>
 	    	<li><a href="#" class="nokey c50"><b>@</b><span>2</span></a></li>
 	    	<li><a href="#" class="nokey c51"><b>#</b><span>3</span></a></li>
-	    	<li><a href="#" class="nokey c52"><b>$</b><span>4</span></a></li>
-	    	<li><a href="#" class="nokey c53"><b>%</b><span>5</span></a></li>
-	    	<li><a href="#" class="nokey c54"><b>^</b><span>6</span></a></li>
+	    	<li><a href="#popup_4" class="key c52" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_4}}"><b>$</b><span>4</span></a></li>
+	    	<li><a href="#popup_5" class="key c53" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_5}}"><b>%</b><span>5</span></a></li>
+	    	<li><a href="#popup_6" class="key c54" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_6}}"><b>^</b><span>6</span></a></li>
 	    	<li><a href="#" class="nokey c55"><b>&amp;</b><span>7</span></a></li>
 	    	<li><a href="#" class="nokey c56"><b>*</b><span>8</span></a></li>
 	    	<li><a href="#" class="nokey c57"><b>(</b><span>9</span></a></li>
 	    	<li><a href="#" class="nokey c48"><b>)</b><span>0</span></a></li>
-	    	<li><a href="#popup_minus" class="key c189 alt" data-tooltip="{{ layout.t[page.lang].tooltip_minus }}"><b>_</b><span>-</span></a></li>
-	    	<li><a href="#popup_plus" class="key c187" data-tooltip="{{ layout.t[page.lang].tooltip_plus }}"><b>+</b><span>=</span></a></li>
-	    	<li><a href="#" class="nokey c46" id="backspace"><span>BackSpace</span></a></li>
-	    	<li><a href="#popup_home" class="key c36" id="home" data-tooltip="{{ layout.t[page.lang].tooltip_home }}"><span>Home</span></a></li>	
+	    	<li><a href="#popup_minus" class="key c189 alt" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_minus }}"><b>_</b><span>-</span></a></li>
+	    	<li><a href="#popup_plus" class="key c187" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_plus }}"><b>+</b><span>=</span></a></li>
+	    	<li><a href="#popup_back" class="nokey c46" id="backspace"><span>BackSpace</span></a></li>
+	    	<li><a href="#" class="nokey c36" id="home"><span>Home</span></a></li>	
         </ul>
 		
     	<ul class="cf" id="qwerty">
-	    	<li><a href="#popup_tab" class="key c9" id="tab" data-tooltip="{{ layout.t[page.lang].tooltip_tab }}"><span>tab</span></a></li>
-	    	<li><a href="#popup_q" class="key c81" data-tooltip="{{ layout.t[page.lang].tooltip_q }}"><span>q</span></a></li>
-	    	<li><a href="#popup_w" class="key c87"><span>w</span></a></li>
-	    	<li><a href="#popup_e" class="key c69" data-tooltip="{{ layout.t[page.lang].tooltip_e}}"><span>e</span></a></li>
-	    	<li><a href="#popup_r" class="key c82" data-tooltip="{{ layout.t[page.lang].tooltip_r }}"><span>r</span></a></li>
-	    	<li><a href="#popup_t" class="key c84" data-tooltip="{{ layout.t[page.lang].tooltip_t }}"><span>t</span></a></li>
-	    	<li><a href="#popup_y" class="key c89"><span>y</span></a></li>
-	    	<li><a href="#popup_u" class="key c85" data-tooltip="{{ layout.t[page.lang].tooltip_u }}"><span>u</span></a></li>
-	    	<li><a href="#popup_i" class="key c73" data-tooltip="{{ layout.t[page.lang].tooltip_i }}"><span>i</span></a></li>
-	    	<li><a href="#popup_o" class="key c79" data-tooltip="{{ layout.t[page.lang].tooltip_o }}"><span>o</span></a></li>
-	    	<li><a href="#popup_p" class="key c80" data-tooltip="{{ layout.t[page.lang].tooltip_p }}"><span>p</span></a></li>
-	    	<li><a href="#" class="nokey c219 alt"><b>{</b><span>[</span></a></li>
-	    	<li><a href="#" class="nokey c221 alt"><b>}</b><span>]</span></a></li>
+	    	<li><a href="#popup_tab" class="key c9" id="tab" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_tab }}"><span>tab</span></a></li>
+	    	<li><a href="#popup_q" class="key c81" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_q }}"><span>q</span></a></li>
+	    	<li><a href="#popup_w" class="key c87" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_w }}"><span>w</span></a></li>
+	    	<li><a href="#popup_e" class="key c69" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_e }}"><span>e</span></a></li>
+	    	<li><a href="#popup_r" class="key c82" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_r }}"><span>r</span></a></li>
+	    	<li><a href="#popup_t" class="key c84" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_t }}"><span>t</span></a></li>
+	    	<li><a href="#" class="nokey c89"><span>y</span></a></li>
+	    	<li><a href="#popup_u" class="key c85" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_u }}"><span>u</span></a></li>
+	    	<li><a href="#popup_i" class="key c73" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_i }}"><span>i</span></a></li>
+	    	<li><a href="#popup_o" class="key c79" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_o }}"><span>o</span></a></li>
+	    	<li><a href="#popup_p" class="key c80" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_p }}"><span>p</span></a></li>
+	    	<li><a href="#popup_obracket" class="key c219 alt" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_obracket }}"><b>{</b><span>[</span></a></li>
+	    	<li><a href="#popup_cbracket" class="key c221 alt" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_cbracket }}"><b>}</b><span>]</span></a></li>
 	    	<li><a href="#" class="nokey c220 alt"><b>|</b><span>\</span></a></li>
-		<li><a href="#popup_pgup" class="key c33 pgup" data-tooltip="{{ layout.t[page.lang].tooltip_pgup }}"><span>PgUp</span></a></li>		
+		<li><a href="#popup_pgup" class="key c33 pgup" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_pgup }}"><span>PgUp</span></a></li>
         </ul>
 		
         <ul class="cf" id="asdfg">
 	    	<li><a href="#" class="nokey c20 alt" id="caps"><b></b><span>caps lock</span></a></li>
-	    	<li><a href="#popup_a" class="key c65" data-tooltip="{{ layout.t[page.lang].tooltip_a }}"><span>a</span></a></li>
-	    	<li><a href="#popup_s" class="key c83" data-tooltip="{{ layout.t[page.lang].tooltip_s }}"><span>s</span></a></li>
-	    	<li><a href="#popup_d" class="key c68" data-tooltip="{{ layout.t[page.lang].tooltip_d }}"><span>d</span></a></li>
-	    	<li><a href="#popup_f" class="key c70" data-tooltip="{{ layout.t[page.lang].tooltip_f }}"><span>f</span></a></li>
-	    	<li><a href="#popup_g" class="key c71"><span>g</span></a></li>
-	    	<li><a href="#popup_h" class="key c72" data-tooltip="{{ layout.t[page.lang].tooltip_h }}"><span>h</span></a></li>
-	    	<li><a href="#popup_j" class="key c74"><span>j</span></a></li>
-	    	<li><a href="#popup_k" class="key c75" data-tooltip="{{ layout.t[page.lang].tooltip_k }}"><span>k</span></a></li>
-	    	<li><a href="#popup_l" class="key c76" data-tooltip="{{ layout.t[page.lang].tooltip_l }}"><span>l</span></a></li>
-	    	<li><a href="#popup_semicolon" class="key c186 alt"><b>:</b><span>;</span></a></li>
+	    	<li><a href="#popup_a" class="key c65"><span>a</span></a></li>
+	    	<li><a href="#popup_s" class="key c83"><span>s</span></a></li>
+	    	<li><a href="#popup_d" class="key c68" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_d }}"><span>d</span></a></li>
+	    	<li><a href="#popup_f" class="key c70"><span>f</span></a></li>
+	    	<li><a href="#popup_g" class="key c71" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_g }}"><span>g</span></a></li>
+	    	<li><a href="#popup_h" class="key c72" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_h }}"><span>h</span></a></li>
+	    	<li><a href="#popup_j" class="key c74" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_j }}"><span>j</span></a></li>
+	    	<li><a href="#popup_k" class="key c75" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_k }}"><span>k</span></a></li>
+	    	<li><a href="#popup_l" class="key c76" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_l }}"><span>l</span></a></li>
+	    	<li><a href="#" class="nokey c186 alt" ><b>:</b><span>;</span></a></li>
 	    	<li><a href="#" class="nokey c222 alt"><b>"</b><span>'</span></a></li>
 	    	<li><a href="#" class="nokey c13 alt enter" id="enter"><span>enter</span></a></li>
-		<li><a href="#popup_pgdn" class="key c34 pgdn" data-tooltip="{{ layout.t[page.lang].tooltip_pgdn}}"><span>PgDn</span></a></li>		
+		<li><a href="#popup_pgdn" class="key c34 pgdn" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_pgdn}}"><span>PgDn</span></a></li>
         </ul>
 		
         <ul class="cf" id="zxcvb">
 	    	<li><a href="#" class="nokey c16 shiftleft"><span>Shift</span></a></li>
-	    	<li><a href="#popup_z" class="key c90" data-tooltip="{{ layout.t[page.lang].tooltip_z }}"><span>z</span></a></li>
-	    	<li><a href="#popup_x" class="key c88" data-tooltip="{{ layout.t[page.lang].tooltip_x }}"><span>x</span></a></li>
-	    	<li><a href="#popup_c" class="key c67" data-tooltip="{{ layout.t[page.lang].tooltip_c }}"><span>c</span></a></li>
+	    	<li><a href="#popup_z" class="key c90"><span>z</span></a></li>
+	    	<li><a href="#popup_x" class="key c88" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_x }}"><span>x</span></a></li>
+	    	<li><a href="#popup_c" class="key c67" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_c }}"><span>c</span></a></li>
 	    	<li><a href="#popup_v" class="key c86"><span>v</span></a></li>
-	    	<li><a href="#popup_b" class="key c66" data-tooltip="{{ layout.t[page.lang].tooltip_b }}"><span>b</span></a></li>
-	    	<li><a href="#popup_n" class="key c78" data-tooltip="{{ layout.t[page.lang].tooltip_n }}"><span>n</span></a></li>
-	    	<li><a href="#popup_m" class="key c77" data-tooltip="{{ layout.t[page.lang].tooltip_m }}"><span>m</span></a></li>
-	    	<li><a href="#popup_comma" class="key c188 alt"><b>&lt;</b><span>,</span></a></li>
-	    	<li><a href="#popup_dot" class="key c190 alt"><b>&gt;</b><span>.</span></a></li>
-	    	<li><a href="#" class="nokey c191 alt"><b>?</b><span>/</span></a></li>
+	    	<li><a href="#popup_b" class="key c66" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_b }}"><span>b</span></a></li>
+	    	<li><a href="#popup_n" class="key c78"><span>n</span></a></li>
+	    	<li><a href="#popup_m" class="key c77"><span>m</span></a></li>
+	    	<li><a href="#popup_comma" class="key c188 alt" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_comma }}"><b>&lt;</b><span>,</span></a></li>
+	    	<li><a href="#popup_dot" class="key c190 alt" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_dot }}"><b>&gt;</b><span>.</span></a></li>
+	    	<li><a href="#popup_slash" class="key c191 alt" data-tooltip="{{ site.data.lang[page.lang][page.app].t.tooltip_slash }}"><b>?</b><span>/</span></a></li>
 	    	<li><a href="#" class="nokey C16 shiftright"><span>Shift</span></a></li>
 		<li><a href="#" class="nokey c38" id="up"><span><img src="{{ site.baseurl }}/images/up.png"></span></a></li>
-		<li><a href="#popup_end" class="key c35 end" data-tooltip="{{ layout.t[page.lang].tooltip_end }}"><span>End</span></a></li>
+		<li><a href="#" class="nokey c35 end"><span>End</span></a></li>
         </ul>
 		
 		<ul class="cf" id="bottomrow">
-		    <li><a href="#" class="nokey c17" id="control"><span>Ctrl</span></a></li>
+		<li><a href="#" class="nokey c17" id="control"><span>Ctrl</span></a></li>
 	    	<li><a href="#" class="nokey" id="fn"><span>fn</span></a></li>
 	    	<li><a href="#" class="nokey super" id="super"><span><img src="{{ site.baseurl }}/images/super-key.png"></span></a></li>
 	    	<li><a href="#" class="nokey altkey" id="altkeyleft"><span>Alt</span></a></li>
 	    	<li><a href="#" class="nokey c32" id="spacebar"></a></li>
 	    	<li><a href="#" class="nokey altkey" id="altkeyright"><span>AltGr</span></a></li>
 	    	<li><a href="#" class="nokey c17 ctrl" id="ctrlright"><span>Ctrl</span></a></li>
-            <li><a href="#" class="nokey c37" id="left"><span><img src="{{ site.baseurl }}/images/left.png"></span></a></li>
+                <li><a href="#" class="nokey c37" id="left"><span><img src="{{ site.baseurl }}/images/left.png"></span></a></li>
 		<li><a href="#" class="nokey c40" id="down"><span><img src="{{ site.baseurl }}/images/down.png"></span></a></li>
 		<li><a href="#" class="nokey c39" id="right"><span><img src="{{ site.baseurl }}/images/right.png"></span></a></li>
         </ul>
@@ -117,7 +117,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_esc }}	
+						{{ site.data.lang[page.lang][page.app].t.key_esc }}
 					</table>		
 				</div>
 		</div>
@@ -129,7 +129,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_f1 }}
+						{{ site.data.lang[page.lang][page.app].t.key_f1 }}
 					</table>		
 				</div>
 		</div>
@@ -141,7 +141,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_f10 }}
+						{{ site.data.lang[page.lang][page.app].t.key_f10 }}
 					</table>	
 				</div>
 		</div>
@@ -153,11 +153,25 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_f11}}
+						{{ site.data.lang[page.lang][page.app].t.key_f11}}
 					</table>		
 				</div>
 		</div>
 </div>
+
+<div id="popup_ins" class="overlay">
+		<div class="popup">
+			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
+			<a class="close" href="#" onclick="history.back(); return false;">×</a>
+				<div class="content">
+					<table class="tftable" border="1">
+						{{ site.t.l_thc[page.lang] }}
+						{{ site.data.lang[page.lang][page.app].t.key_ins }}
+					</table>						
+				</div>
+		</div>
+</div>
+
 <div id="popup_delete" class="overlay">
 		<div class="popup">
 			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
@@ -165,7 +179,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_delete }}			
+						{{ site.data.lang[page.lang][page.app].t.key_delete }}
 					</table>						
 				</div>
 		</div>
@@ -178,7 +192,46 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_1 }}				
+						{{ site.data.lang[page.lang][page.app].t.key_1 }}
+					</table>	
+				</div>
+		</div>
+</div>
+
+<div id="popup_4" class="overlay">
+		<div class="popup">
+			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
+	        <a class="close" href="#" onclick="history.back(); return false;">×</a>
+				<div class="content">
+					<table class="tftable" border="1">
+						{{ site.t.l_thc[page.lang] }}
+						{{ site.data.lang[page.lang][page.app].t.key_4 }}
+					</table>	
+				</div>
+		</div>
+</div>
+
+<div id="popup_5" class="overlay">
+		<div class="popup">
+			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
+	        <a class="close" href="#" onclick="history.back(); return false;">×</a>
+				<div class="content">
+					<table class="tftable" border="1">
+						{{ site.t.l_thc[page.lang] }}
+						{{ site.data.lang[page.lang][page.app].t.key_5 }}
+					</table>	
+				</div>
+		</div>
+</div>
+
+<div id="popup_6" class="overlay">
+		<div class="popup">
+			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
+	        <a class="close" href="#" onclick="history.back(); return false;">×</a>
+				<div class="content">
+					<table class="tftable" border="1">
+						{{ site.t.l_thc[page.lang] }}
+						{{ site.data.lang[page.lang][page.app].t.key_6 }}
 					</table>	
 				</div>
 		</div>
@@ -191,7 +244,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_minus }}				
+						{{ site.data.lang[page.lang][page.app].t.key_minus }}
 					</table>	
 				</div>
 		</div>
@@ -203,7 +256,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_plus }}					
+						{{ site.data.lang[page.lang][page.app].t.key_plus }}
 					</table>	
 				</div>
 		</div>
@@ -216,7 +269,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_tab }}
+						{{ site.data.lang[page.lang][page.app].t.key_tab }}
 					</table>	
 				</div>
 		</div>
@@ -229,7 +282,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_home }}					
+						{{ site.data.lang[page.lang][page.app].t.key_home }}
 					</table>	
 				</div>
 		</div>
@@ -241,7 +294,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_pgup }}					
+						{{ site.data.lang[page.lang][page.app].t.key_pgup }}
 					</table>	
 				</div>
 		</div>
@@ -253,7 +306,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_pgdn }}		
+						{{ site.data.lang[page.lang][page.app].t.key_pgdn }}
 					</table>	
 				</div>
 		</div>
@@ -265,7 +318,33 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_end }}					
+						{{ site.data.lang[page.lang][page.app].t.key_end }}
+					</table>	
+				</div>
+		</div>
+</div>
+
+<div id="popup_obracket" class="overlay">
+		<div class="popup">
+			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
+	        <a class="close" href="#" onclick="history.back(); return false;">×</a>
+				<div class="content">
+					<table class="tftable" border="1">
+						{{ site.t.l_thc[page.lang] }}
+						{{ site.data.lang[page.lang][page.app].t.key_obracket }}
+					</table>	
+				</div>
+		</div>
+</div>
+
+<div id="popup_cbracket" class="overlay">
+		<div class="popup">
+			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
+	        <a class="close" href="#" onclick="history.back(); return false;">×</a>
+				<div class="content">
+					<table class="tftable" border="1">
+						{{ site.t.l_thc[page.lang] }}
+						{{ site.data.lang[page.lang][page.app].t.key_cbracket }}
 					</table>	
 				</div>
 		</div>
@@ -278,7 +357,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_comma }}					
+						{{ site.data.lang[page.lang][page.app].t.key_comma }}
 					</table>	
 				</div>
 		</div>
@@ -291,20 +370,20 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_dot }}					
+						{{ site.data.lang[page.lang][page.app].t.key_dot }}
 					</table>	
 				</div>
 		</div>
 </div>
 
-<div id="popup_semicolon" class="overlay">
+<div id="popup_slash" class="overlay">
 		<div class="popup">
 			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
 	        <a class="close" href="#" onclick="history.back(); return false;">×</a>
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_semicolon }}
+						{{ site.data.lang[page.lang][page.app].t.key_slash }}
 					</table>	
 				</div>
 		</div>
@@ -319,7 +398,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_q }}	
+						{{ site.data.lang[page.lang][page.app].t.key_q }}
 					</table>	
 				</div>
 		</div>
@@ -331,7 +410,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_w }}	
+						{{ site.data.lang[page.lang][page.app].t.key_w }}
 					</table>	
 				</div>
 		</div>
@@ -343,7 +422,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_e }}
+						{{ site.data.lang[page.lang][page.app].t.key_e }}
 					</table>	
 				</div>
 		</div>
@@ -355,7 +434,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_r }}
+						{{ site.data.lang[page.lang][page.app].t.key_r }}
 					</table>	
 				</div>
 		</div>
@@ -367,23 +446,12 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_t }}		
+						{{ site.data.lang[page.lang][page.app].t.key_t }}
 					</table>	
 				</div>
 		</div>
 </div>
-<div id="popup_y" class="overlay">
-		<div class="popup">
-			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
-	        <a class="close" href="#" onclick="history.back(); return false;">×</a>
-				<div class="content">
-					<table class="tftable" border="1">
-						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_y }}	
-					</table>	
-				</div>
-		</div>
-</div>
+
 <div id="popup_u" class="overlay">
 		<div class="popup">
 			<h2>{{ site.t.l_popupt[page.lang] }}</h2>
@@ -391,7 +459,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 					{{ site.t.l_thc[page.lang] }}
-					{{ layout.t[page.lang].key_u }}	
+					{{ site.data.lang[page.lang][page.app].t.key_u }}
 					</table>	
 				</div>
 		</div>
@@ -403,7 +471,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_i }}
+						{{ site.data.lang[page.lang][page.app].t.key_i }}
 					</table>	
 				</div>
 		</div>
@@ -415,7 +483,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_o }}	
+						{{ site.data.lang[page.lang][page.app].t.key_o }}
 					</table>	
 				</div>
 		</div>
@@ -427,7 +495,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_p }}					
+						{{ site.data.lang[page.lang][page.app].t.key_p }}
 					</table>	
 				</div>
 		</div>
@@ -440,7 +508,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_a }}
+						{{ site.data.lang[page.lang][page.app].t.key_a }}
 					</table>	
 				</div>
 		</div>
@@ -452,7 +520,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_s }}				
+						{{ site.data.lang[page.lang][page.app].t.key_s }}
 					</table>	
 				</div>
 		</div>
@@ -464,7 +532,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_d }}				
+						{{ site.data.lang[page.lang][page.app].t.key_d }}
 					</table>	
 				</div>
 		</div>
@@ -476,7 +544,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_f }}			
+						{{ site.data.lang[page.lang][page.app].t.key_f }}
 					</table>	
 				</div>
 		</div>
@@ -488,7 +556,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_g }}			
+						{{ site.data.lang[page.lang][page.app].t.key_g }}
 					</table>	
 				</div>
 		</div>
@@ -500,7 +568,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_h }}					
+						{{ site.data.lang[page.lang][page.app].t.key_h }}
 					</table>	
 				</div>
 		</div>
@@ -512,7 +580,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_j }}
+						{{ site.data.lang[page.lang][page.app].t.key_j }}
 					</table>	
 				</div>
 		</div>
@@ -524,7 +592,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_k }}			
+						{{ site.data.lang[page.lang][page.app].t.key_k }}
 					</table>	
 				</div>
 		</div>
@@ -536,7 +604,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_l }}			
+						{{ site.data.lang[page.lang][page.app].t.key_l }}
 					</table>	
 				</div>
 		</div>
@@ -549,7 +617,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_z }}				
+						{{ site.data.lang[page.lang][page.app].t.key_z }}
 					</table>	
 				</div>
 		</div>
@@ -561,7 +629,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_x }}				
+						{{ site.data.lang[page.lang][page.app].t.key_x }}
 					</table>	
 				</div>
 		</div>
@@ -573,7 +641,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_c }}
+						{{ site.data.lang[page.lang][page.app].t.key_c }}
 					</table>	
 				</div>
 		</div>
@@ -585,7 +653,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_v }}	
+						{{ site.data.lang[page.lang][page.app].t.key_v }}
 					</table>	
 				</div>
 		</div>
@@ -597,7 +665,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_b }}
+						{{ site.data.lang[page.lang][page.app].t.key_b }}
 					</table>	
 				</div>
 		</div>
@@ -609,7 +677,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_n }}
+						{{ site.data.lang[page.lang][page.app].t.key_n }}
 					</table>	
 				</div>
 		</div>
@@ -621,7 +689,7 @@
 				<div class="content">
 					<table class="tftable" border="1">
 						{{ site.t.l_thc[page.lang] }}
-						{{ layout.t[page.lang].key_m }}
+						{{ site.data.lang[page.lang][page.app].t.key_m }}
 					</table>	
 				</div>
 		</div>
@@ -633,11 +701,12 @@
 
 <div id="about" class="overlay">
     <div class="popup">
-        <h2>{{ layout.t[page.lang].l_titleabout }}</h2>
+        <h2>{{ site.data.lang[page.lang][page.app].t.l_titleabout }}</h2>
         <a class="close" href="#" onclick="history.back(); return false;">×</a>
         	<div class="content">
-		{{ layout.t[page.lang].l_descabout }}
-		<p><a href="http://gimp.org">{{ layout.t[page.lang].l_linkabout }}</a></p>
+		{{ site.data.lang[page.lang][page.app].t.l_descabout }}
+		
+		<p><a href="http://krita.org">{{ site.data.lang[page.lang][page.app].t.l_linkabout }}</a></p>
        </div>
     </div>
 </div>
@@ -645,7 +714,7 @@
 
 
 <div class="box">
-    <a class="button" href="#about">{{ layout.t[page.lang].l_buttonabout }}</a>
+    <a class="button" href="#about">{{ site.data.lang[page.lang][page.app].t.l_buttonabout }}</a>
 </div>
 
 

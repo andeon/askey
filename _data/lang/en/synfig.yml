@@ -1,7 +1,6 @@
 ---
 layout: main_synfig
 t:
- en:
 #Tooltip Keys
   tooltip_esc: "Deselect the last Tool"
 #  tooltip_f1: ""

@@ -1,7 +1,6 @@
 ---
 layout: main_gimp
 t:
- en:
 #Tooltip_Key_fn_etc
   tooltip_esc: "Close Dialogs"
   tooltip_f1: "Help"
@@ -91,7 +90,7 @@ t:
 #Delete
   key_delete: "<tr><td>Delete</td><td>Clear</td><td>Editar</td></tr>"
 #1
-  key_01: "<tr><td>1</td><td>Zoom 1:1</td><td>View</td></tr>"
+  key_1: "<tr><td>1</td><td>Zoom 1:1</td><td>View</td></tr>"
 #-
   key_minus: "<tr><td>-</td><td>Zoom out</td><td>View</td></tr>"
 #+
@@ -154,7 +153,7 @@ t:
 #Popup Table Key explanation ASDFG
 #A
   key_a: "<tr><td>A</td><td>Airbrush</td><td>Toolbox</td></tr>
-   <tr><td>Ctrl+A</td><td>All</td><td>Select</td></tr>	
+   <tr><td>Ctrl+A</td><td>All</td><td>Select</td></tr>
    <tr><td>Shift+Ctrl+A</td><td>None</td><td>Select</td></tr>"
 #S
   key_s: "<tr><td>S</td><td>Smudge</td><td>Toolbox</td></tr>	

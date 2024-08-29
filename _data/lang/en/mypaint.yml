@@ -1,7 +1,6 @@
 ---
 layout: main_mypaint
 t:
- en:
 #Tooltip Keys
   tooltip_esc: "Close Dialogs"
 #  tooltip_f1: ""

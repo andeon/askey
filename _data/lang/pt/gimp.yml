@@ -1,7 +1,6 @@
 ---
 layout: main_gimp
 t:
- pt:
 #Tooltip_Key_fn_etc
   tooltip_esc: "Fechar janelas"
   tooltip_f1: "Ajuda"
@@ -58,7 +57,7 @@ t:
   tooltip_o: "Seleção de cores"
   tooltip_p: "Pincel"
 #Tooltip_Key_ASDFG
-  tooltip_a: "aerografo"
+  tooltip_a: "Aerográfo"
   tooltip_s: "Borrar"
   tooltip_d: "Cores padrão"
   tooltip_f: "Seleção Livre"
