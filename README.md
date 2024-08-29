@@ -17,8 +17,8 @@ Notes
 
 Keyboard was based on the Apple Wireless Keyboard created by Dustin Cartwright
 
-Tooltip https://cbracco.me/a-simple-css-tooltip/ 
+Tooltip: https://chrisbracco.com/a-simple-css-tooltip/
 
-Popup https://www.sevensignature.com/blog/code/pure-css-popup-without-javascript/
+Popup: https://codepen.io/sahil4test/pen/xERYvX
 
-This site: https://benoitpatra.com/2014/08/24/organize-a-multilanguage-jekyll-site/ helped me to understand the concept of multi-language in Jekyll
+This site: [https://benoitpatra.com/2014/08/24/organize-a-multilanguage-jekyll-site](https://web.archive.org/web/20160331145004/http://benoitpatra.com/2014/08/24/organize-a-multilanguage-jekyll-site) helped me to understand the concept of multi-language in Jekyll
