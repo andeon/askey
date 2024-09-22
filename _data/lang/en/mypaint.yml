@@ -183,7 +183,7 @@ t:
 #Popup about
   l_buttonabout: "About Mypaint"
   l_titleabout: "Mypaint Keyboard Shortcuts"
-  l_descabout: "Cover the most useful hotkeys for the Mypaint under Linux. All keys can be assigned individually: Edit / Preferences / keys."
+  l_descabout: "Cover the most useful hotkeys for the Mypaint. All keys can be assigned individually: Edit / Preferences / keys."
   l_linkabout: "Visit Mypaint's official website!"
 ---
 
