@@ -152,7 +152,7 @@ t:
 #Open bracket
   key_obracket: "<tr><td>[</td><td>Decrease Brush Size</td><td>Tools</td></tr>"
 #Close bracket
-  key_cbracket: "<tr><td>]</td><td>increase Brush Size</td><td>!!Edit</td></tr>"
+  key_cbracket: "<tr><td>]</td><td>increase Brush Size</td><td>Tools</td></tr>"
 #,
   key_comma: "<tr><td>Ctrl+,</td><td>Filll Selection</td><td>Edit</td></tr>
    <tr><td>Shift+,</td><td>Rotate Canvas Counterclockwise</td><td>View</td></tr>
