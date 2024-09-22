@@ -142,7 +142,7 @@ t:
 #Popup about
   l_buttonabout: "About Inkscape"
   l_titleabout: "Inkscape Keyboard Shortcuts"
-  l_descabout: "Cover the most useful hotkeys for the Inkscape under Linux. All keys can be assigned individually: Edit / Preferences / Interface / Keyboard Shortcuts."
+  l_descabout: "Cover the most useful hotkeys for the Inkscape. All keys can be assigned individually: Edit / Preferences / Interface / Keyboard Shortcuts."
   l_linkabout: "Visit Inkscape's official website!"
 ---
 

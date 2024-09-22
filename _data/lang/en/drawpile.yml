@@ -1,0 +1,264 @@
+---
+layout: main_drawpile
+t:
+#Tooltip Keys
+  tooltip_esc: "Cancel action"
+#  tooltip_f1: ""
+#  tooltip_f2: ""
+#  tooltip_f3: ""
+#  tooltip_f4: ""
+#  tooltip_f5: ""
+#  tooltip_f6: ""
+  tooltip_f7: "Brush Settings"
+#  tooltip_f8: ""
+  tooltip_f9: "Layouts"
+#  tooltip_f10: ""
+  tooltip_f11: "Full Screen"
+  tooltip_f12: "Lock Everything"
+#  tooltip_insert: ""
+#  tooltip_printscr: ""
+  tooltip_delete: "Delete"
+#  tooltip_singlequote: "" 
+  tooltip_tab: "Hide Docks"
+  tooltip_1: "Brush slot #1"
+  tooltip_2: "Brush slot #2"
+  tooltip_3: "Brush slot #3"
+  tooltip_4: "Brush slot #4"
+  tooltip_5: "Brush slot #5"
+  tooltip_6: "Brush slot #6"
+#  tooltip_7: ""
+#  tooltip_8: ""
+#  tooltip_9: ""
+#  tooltip_0: ""
+#  tooltip_minus: ""
+#  tooltip_plus: ""
+#  tooltip_backspace: ""
+  tooltip_home: "Layer View"
+#  tooltip_pgup: ""
+#  tooltip_pgdn: ""
+#  tooltip_end: ""
+  tooltip_obracket: "Decrease Brush Size"
+  tooltip_cbracket: "Increase Brush Size"
+#  tooltip_comma: ""
+#  tooltip_dot: ""
+#  tooltip_colon: "" 
+#  tooltip_space: ""
+#  tooltip_slash: "" 
+
+#Tooltips_Key_QWERTY
+#  tooltip_q: ""
+#  tooltip_w: ""
+  tooltip_e: "Eraser"
+  tooltip_r: "Rectangle"
+#  tooltip_t: ""
+#  tooltip_y: ""
+  tooltip_u: "Line"
+  tooltip_i: "Color Picker"
+  tooltip_o: "Ellipse"
+#  tooltip_p: ""
+
+#Tooltip_Key_ASDFG
+  tooltip_a: "Annotation"
+  tooltip_s: "Select (Rectangular)"
+#  tooltip_d: ""
+  tooltip_f: "Flood Fill"
+#  tooltip_g: ""
+#  tooltip_h: ""
+#  tooltip_j: ""
+#  tooltip_k: ""
+  tooltip_l: "Laser Pointer"
+
+#Tooltip_Key_ZXCVB
+  tooltip_z: "Zoom"
+  tooltip_x: "Swap Last Colors"
+  tooltip_c: "Flip"
+  tooltip_v: "Mirror"
+  tooltip_b: "Freehand"
+#  tooltip_n: ""
+#  tooltip_m: ""
+
+#Popup Table Key explanation fn
+#Esc
+  key_esc: "<tr><td>Esc</td><td>Cancel action</td><td></td></tr>"
+#F1
+#  key_f1: ""
+#F2
+#  key_f2: ""
+#F3
+#  key_f3: ""
+#F4
+#  key_f4: ""
+#F5
+#  key_f5: ""
+#F6
+#  key_f6: ""
+#F7
+  key_f7: "<tr><td>F7</td><td>Brush Settings</td><td>Edit</td></tr>"
+#F8
+#  key_f8: ""
+#F9
+  key_f9: "<tr><td>F9</td><td>Layouts...</td><td>View</td></tr>"
+#F10
+#  key_f10: ""
+#F11
+  key_f11: "<tr><td>F11</td><td>Full Screen</td><td>View</td></tr>"
+#F12
+  key_f12: "<tr><td>F12</td><td>Lock Everything</td><td>Session</td></tr>"
+#insert
+  key_insert: "<tr><td>Ctrl+Shif+Insert</td><td>New Layer</td><td>Layer</td></tr>"
+#Delete
+  key_delete: "<tr><td>Del</td><td>Delete</td><td>Edit</td></tr>
+  <tr><td>Shift+Del</td><td>Color Erase Selection</td><td>Edit</td></tr>"
+#tab
+  key_tab: "<tr><td>Tab</td><td>Hide Docks</td><td>View</td></tr>
+   <tr><td>Ctrl+Tab</td><td>Focus canvas</td><td></td></tr>"
+#1
+  key_1: "<tr><td>1</td><td>Brush slot #1</td><td></td></tr>"
+#2
+  key_2: "<tr><td>2</td><td>Brush slot #2</td><td></td></tr>"
+#3
+  key_3: "<tr><td>3</td><td>Brush slot #3</td><td></td></tr>"
+#4
+  key_4: "<tr><td>4</td><td>Brush slot #4</td><td></td></tr>"
+#5
+  key_5: "<tr><td>5</td><td>Brush slot #5</td><td></td></tr>"
+#6
+  key_6: "<tr><td>1</td><td>Brush slot #6</td><td></td></tr>"
+#7
+#  key_7: ""
+#8
+#  key_8: ""
+#9
+#  key_9: ""
+#0
+  key_0: "<tr><td>Ctrl+0</td><td>Normal Size</td><td>View</td></tr>"
+#-
+  key_minus: "<tr><td>Ctrl+-</td><td>Zoom Out</td><td>View</td></tr>
+   <tr><td>Ctrl+Shift+-</td><td>Decrease Key Frame Exposure</td><td>Animation</td></tr>"
+#+
+  key_plus: "<tr><td>Ctrl++</td><td>Zoom In</td><td>View</td></tr>
+   <tr><td>Ctrl+Shift++</td><td>Increase Key Frame Exposure</td><td>Animation</td></tr>"
+#Backspace
+#  key_backspace: ""
+#Home
+  key_home: "<tr><td>Home</td><td>Layer View</td><td>View</td></tr>
+   <tr><td>Shift+Home</td><td>Frame View</td><td>View</td></tr>"
+#PgUp
+#  key_pgup: ""
+#PgDn
+#  key_pgdn: ""
+#End
+#  key_end: ""
+#Open bracket
+  key_obracket: "<tr><td>[</td><td>Decrease Brush Size</td><td>Tools</td></tr>"
+#Close bracket
+  key_cbracket: "<tr><td>]</td><td>increase Brush Size</td><td>!!Edit</td></tr>"
+#,
+  key_comma: "<tr><td>Ctrl+,</td><td>Filll Selection</td><td>Edit</td></tr>
+   <tr><td>Shift+,</td><td>Rotate Canvas Counterclockwise</td><td>View</td></tr>
+   <tr><td>Ctrl+Shift+,</td><td>Recolor Selection</td><td>Edit</td></tr>"
+#.
+  key_dot: "<tr><td>Shift+.</td><td>Rotate Canvas Clockwise</td><td>View</td></tr>"
+
+#Popup Table Key explanation QWERTY
+#Q
+  key_q: "<tr><td>Ctrl+Q</td><td>Quit</td><td>File</td></tr>"
+#W
+#  key_w: ""
+#E
+  key_e: "<tr><td>E</td><td>Eraser</td><td>Tools</td></tr>
+   <tr><td>Ctrl+Alt+Shift+E</td><td>Duplicate to Previous Key Frame</td><td>Animation</td></tr>
+   <tr><td>Ctrl+Shift+E</td><td>Create Layer on Previous Key Frame</td><td>Animation</td></tr>
+   <tr><td>Ctrl+E</td><td>Toggle Eraser Mode</td><td>Tools</td></tr>
+   <tr><td>Shift+E</td><td>Toggle Recolor Mode</td><td>Tools</td></tr>"
+#R
+  key_r: "<tr><td>R</td><td>Rectangle</td><td>Tools</td></tr>
+   <tr><td>Ctrl+R</td><td>Reset Rotation</td><td>View</td></tr>
+   <tr><td>Ctrl+Shft+R</td><td>Create Layer on Current Key Frame</td><td>Animation</td></tr>"
+#T
+  key_t: "<tr><td>Ctrl+Shift+T</td><td>Create Layer on Next Key Frame</td><td>Animation</td></tr>
+   <tr><td>Ctrl+Alt+Shift+T</td><td>Duplicate to Next Key Frame</td><td>Animation</td></tr>"
+#Y
+  key_y: "<tr><td>Ctrl+Y</td><td>Redo</td><td>Edit</td></tr>"
+#U
+  key_u: "<tr><td>U</td><td>line</td><td>Tools</td></tr>"
+#I
+  key_i: "<tr><td>I</td><td>Color Picker</td><td>Tools</td></tr>
+   <tr><td>Ctrl+I</td><td>Inspector</td><td>Tools</td></tr>
+   <tr><td>Shift+I</td><td>Pick From Screen</td><td>Edit</td></tr>"
+#O
+  key_o: "<tr><td>O</td><td>Ellipse</td><td>Tools</td></tr>
+   <tr><td>Ctrl+O</td><td>Open</td><td>File</td></tr>
+   <tr><td>Ctrl+Shift+O</td><td>Track Onion Skin</td><td>Animation</td></tr>"
+#P
+  key_p: "<tr><td>Shift+P</td><td>Reload Last Brush Preset</td><td>Tools</td></tr>
+   <tr><td>Ctrl+Shift+P</td><td>Key Frame Properties...</td><td>Animation</td></tr>"
+
+#Popup Table Key explanation ASDFG
+#A
+  key_a: "<tr><td>A</td><td>Annotation</td><td>Tools</td></tr>
+   <tr><td>Ctrl+A</td><td>Select All</td><td>Edit</td></tr>
+   <tr><td>Ctrl+Shift+A</td><td>Deselect</td><td>Edit</td></tr>"
+#S
+  key_s: "<tr><td>S</td><td>Select (Rectangular)</td><td>Tools</td></tr>
+   <tr><td>Crtl+S</td><td>Save</td><td>Save</td></tr>"
+#D
+  key_d: "<tr><td>D</td><td>Select (Free-Form)</td><td>Tools</td></tr>"
+#F
+  key_f: "<tr><td>F</td><td>Flood Fill</td><td>Tools</td></tr>
+   <tr><td>Ctrl+F</td><td>Flipbook</td><td>Animation</td></tr>
+   <tr><td>Ctrl+Shift+F</td><td>Set Key Frame to Current Layer</td><td>Animation</td></tr>"
+#G
+  key_g: "<tr><td>Ctrl+Shift+G</td><td>Delete Key Frame</td><td>Animation</td></tr>"
+#H
+  key_h: "<tr><td>Ctrl+Shift+H</td><td>Previous Frame</td><td>Animation</td></tr>
+   <tr><td>Ctrl+Alt+Shift+H</td><td>Previous Key Frame</td><td>Animation</td></tr>
+   <tr><td>Ctrl+H</td><td>Expand Left</td><td>Edit</td></tr>"
+#J
+  key_j: "<tr><td>Ctrl+J</td><td>Expand Up</td><td>Edit</td></tr>
+   <tr><td>Ctrl+Shift+J</td><td>Track Below</td><td>Animation</td></tr>"
+#K
+  key_k: "<tr><td>Ctrl+K</td><td>Expand Down</td><td>Edit</td></tr>
+   <tr><td>Ctrl+Shift+K</td><td>Track Above</td><td>Animation</td></tr>"
+#L
+  key_l: "<tr><td>L</td><td>Laser Pointer</td><td>Tools</td></tr>
+   <tr><td>Ctrl+L</td><td>Expand Right</td><td>Edit</td></tr>
+   <tr><td>Ctrl+Shift+L</td><td>Next Frame</td><td>Animation</td></tr>
+   <tr><td>Ctrl+Alt+Shift+L</td><td>Next Key Frame</td><td>Animation</td></tr>"
+
+#Popup Table Key explanation ZXCVB
+#Z
+  key_z: "<tr><td>Z</td><td>Zoom</td><td>Tools</td></tr>
+   <tr><td>Ctrl+Z</td><td>Undo</td><td>Edit</td></tr>
+   <tr><td>Shift+Z</td><td>Select Below</td><td>Layer</td></tr>"
+#X
+  key_x: "<tr><td>X</td><td>Swap Last Colors</td><td>Tools</td></tr>
+   <tr><td>Ctrl+X</td><td>Cut From Layer</td><td>Edit</td></tr>
+   <tr><td>Shift+X</td><td>Select above</td><td>Layer</td></tr>"
+#C
+  key_c: "<tr><td>C</td><td>Flip</td><td>View</td></tr>
+   <tr><td>Alt+C</td><td>Chat</td><td>View</td></tr>
+   <tr><td>Ctrl+C</td><td>Copy From Layer</td><td>Edit</td></tr>
+   <tr><td>Ctrl+Shif+C</td><td>Copy Merged</td><td>Edit</td></tr>
+   <tr><td>Ctrl+Alt+C</td><td>Copy Without Background</td><td>Edit</td></tr>"
+#V
+  key_v: "<tr><td>V</td><td>Mirror</td><td>View</td></tr>
+   <tr><td>Ctrl+V</td><td>Paste</td><td>Edit</td></tr>
+   <tr><td>Ctrl+Shift+V</td><td>Paste in View Center</td><td>Edit</td></tr>"
+#B
+  key_b: "<tr><td>B</td><td>Freehand</td><td>Tools</td></tr>
+   <tr><td>Ctrl+B</td><td>Bezier Curve</td><td>Tools</td></tr>
+   <tr><td>Ctrl+Shif+B</td><td>Set Blank Key Frame</td><td>Animation/td></tr>"
+#N
+  key_n: "<tr><td>Ctrl+N</td><td>New</td><td>File</td></tr>"
+#M
+#  key_m: ""
+
+#Popup about
+  l_buttonabout: "About Drawpile"
+  l_titleabout: "Drawpile Keyboard Shortcuts"
+  l_descabout: "Cover the most useful hotkeys for the Drawpile. All menu and action button shortcuts can be customized. Edit/Preferences/Shortcuts."
+  l_linkabout: "Visit Drawpile's official website!"
+---
+
+
